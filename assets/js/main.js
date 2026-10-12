@@ -46,7 +46,7 @@
       toggle.setAttribute('aria-label', open ? '關閉選單' : '開啟選單');
     });
     $$('a', mobile).forEach(a => a.addEventListener('click', close));
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !mobile.hidden) { close(); toggle.focus(); } });
     window.matchMedia('(min-width: 1181px)').addEventListener('change', e => { if (e.matches) close(); });
   }
 
@@ -354,6 +354,9 @@
 
   const form = $('#intake-form');
   if (form) {
+    if (config.intakeMode !== 'api') {
+      $('button[type="submit"]',form).textContent='下載諮詢摘要 ↗';
+    }
     const panels = $$('.form-step', form);
     const progress = $$('.form-progress span');
     let current = 0;
@@ -384,20 +387,36 @@
       e.preventDefault(); if (!validate(2)) return;
       const payload=Object.fromEntries(['name','email','phone','area','stage','message'].map(k=>[k,form.elements[k].value.trim()]));
       const status=$('#intake-status'); const button=$('button[type="submit"]',form);
-      if (config.intakeEndpoint) {
-        if (!/^https:\/\//.test(config.intakeEndpoint)) { status.textContent='收件端點須使用 HTTPS。'; return; }
+      if (config.intakeMode === 'api') {
+        let endpoint;
+        try { endpoint=new URL(config.intakeEndpoint); } catch {}
+        if (!endpoint || endpoint.protocol !== 'https:') { status.textContent='收件設定有誤，請直接以電話或電子郵件聯繫。'; return; }
+        if (button.disabled) return;
         button.disabled=true; status.textContent='正在送出，請稍候…';
+        const controller=new AbortController();
+        const timeout=setTimeout(()=>controller.abort(),Math.min(30000,Math.max(5000,config.intakeTimeoutMs||20000)));
         try {
-          const response=await fetch(config.intakeEndpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
-          if (!response.ok) throw new Error(`HTTP ${response.status}`);
-          sessionStorage.removeItem('hla-intake-draft'); sessionStorage.setItem('hla-intake-status','sent'); location.href='thank-you.html';
-        } catch { status.textContent='目前未能送出。請稍後重試，或建立本機摘要。'; button.disabled=false; }
+          const response=await fetch(endpoint.href,{method:'POST',credentials:'omit',redirect:'error',signal:controller.signal,
+            headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({...payload,privacyAccepted:true})});
+          if (!response.ok || !(response.headers.get('content-type') || '').includes('application/json')) throw new Error('No confirmed receipt');
+          const result=await response.json();
+          if (result.ok !== true || !/^[A-Za-z0-9_-]{6,80}$/.test(result.receiptId || '')) throw new Error('No confirmed receipt');
+          try { sessionStorage.removeItem('hla-intake-draft');sessionStorage.setItem('hla-intake-status','sent');sessionStorage.setItem('hla-intake-receipt',result.receiptId); } catch {}
+          window.HLA_TRACK?.('submit_form',{mode:'api'},'intake-submit',undefined,true);
+          window.HLA_TRACK?.('generate_lead',{mode:'api'},'intake',undefined,true);
+          location.href='thank-you.html';
+        } catch { window.HLA_TRACK?.('submit_form',{mode:'api'});status.textContent='目前未能確認收件，請稍後重試或直接致電／寄信；您的資料仍保留在此瀏覽器。'; button.disabled=false; }
+        finally { clearTimeout(timeout); }
         return;
       }
+      if (button.disabled) return;
+      button.disabled=true;
       const lines=['理然法律諮詢摘要','建立時間：'+new Date().toLocaleString('zh-TW'),'','姓名：'+payload.name,'電子郵件：'+payload.email,'聯絡電話：'+payload.phone,'議題：'+payload.area,'階段：'+payload.stage,'','問題摘要：',payload.message,'','此檔案僅在本機建立，尚未送達事務所。'];
       const blob=new Blob(['\ufeff'+lines.join('\n')],{type:'text/plain;charset=utf-8'});
       const href=URL.createObjectURL(blob), a=document.createElement('a'); a.href=href; a.download='HLA_諮詢摘要.txt'; document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(href),30000);
-      sessionStorage.removeItem('hla-intake-draft'); sessionStorage.setItem('hla-intake-status','draft'); location.href='thank-you.html';
+      try { sessionStorage.removeItem('hla-intake-draft'); sessionStorage.setItem('hla-intake-status','draft'); } catch {}
+      window.HLA_TRACK?.('submit_form',{mode:'summary'},'intake-summary',undefined,true);
+      window.HLA_TRACK?.('download_intake_summary',{mode:'summary'},'intake',undefined,true);location.href='thank-you.html';
     });
   }
   let intakeStatus = '';
@@ -411,5 +430,12 @@
   if (page === 'P28' && intakeStatus === 'sent') {
     $('#thank-title').textContent='您的資料已送出';
     $('#thank-message').textContent='收件端點已回覆成功。請保留提交紀錄，後續聯絡仍依事務所實際收件安排。';
+    try {
+      const receipt=sessionStorage.getItem('hla-intake-receipt');sessionStorage.removeItem('hla-intake-receipt');
+      if(receipt && /^[A-Za-z0-9_-]{6,80}$/.test(receipt)) {
+        const note=document.createElement('p');note.textContent='收件編號：'+receipt;$('#thank-message').after(note);
+      }
+    } catch {}
+
   }
 })();

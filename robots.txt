@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-# 正式網域確定後加入 Sitemap 的完整 HTTPS 網址。
+Sitemap: https://www.hlaglobal.com.tw/sitemap.xml

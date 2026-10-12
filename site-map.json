@@ -1,352 +1,450 @@
 [
   {
-    "code": "P00",
-    "file": "index.html",
-    "name": "首頁"
+    "code": "P29",
+    "file": "404.html",
+    "name": "找不到頁面",
+    "url": "https://www.hlaglobal.com.tw/404.html",
+    "index": false
   },
   {
     "code": "P01",
     "file": "about.html",
-    "name": "關於理然"
-  },
-  {
-    "code": "P02",
-    "file": "philosophy.html",
-    "name": "品牌理念"
+    "name": "關於理然",
+    "url": "https://www.hlaglobal.com.tw/about.html",
+    "index": true
   },
   {
     "code": "P03",
     "file": "approach.html",
-    "name": "服務方法"
+    "name": "服務方法",
+    "url": "https://www.hlaglobal.com.tw/approach.html",
+    "index": true
   },
   {
-    "code": "P04",
-    "file": "expertise.html",
-    "name": "專業領域"
+    "code": "P19",
+    "file": "article-ai-rights.html",
+    "name": "生成式 AI 作品的素材來源與授權怎麼查",
+    "url": "https://www.hlaglobal.com.tw/article-ai-rights.html",
+    "index": true
   },
   {
-    "code": "P05",
-    "file": "corporate.html",
-    "name": "企業與商務"
+    "code": "P19",
+    "file": "article-child-support.html",
+    "name": "子女扶養費怎麼計算？從生活支出到父母分擔",
+    "url": "https://www.hlaglobal.com.tw/article-child-support.html",
+    "index": true
   },
   {
-    "code": "P06",
-    "file": "disputes.html",
-    "name": "民商事爭議"
+    "code": "P19",
+    "file": "article-childcare.html",
+    "name": "分開居住後，子女照顧安排如何具體化",
+    "url": "https://www.hlaglobal.com.tw/article-childcare.html",
+    "index": true
   },
   {
-    "code": "P07",
-    "file": "cross-border.html",
-    "name": "跨境與國際爭議"
+    "code": "P19",
+    "file": "article-coowner-sale.html",
+    "name": "共有人要出售土地：同意比例與優先承購怎麼確認",
+    "url": "https://www.hlaglobal.com.tw/article-coowner-sale.html",
+    "index": true
   },
   {
-    "code": "P08",
-    "file": "real-estate.html",
-    "name": "土地與不動產"
+    "code": "P19",
+    "file": "article-criminal-rights.html",
+    "name": "第一次警詢前，先認識陳述權利與證據保存",
+    "url": "https://www.hlaglobal.com.tw/article-criminal-rights.html",
+    "index": true
   },
   {
-    "code": "P09",
-    "file": "criminal.html",
-    "name": "刑事與企業刑事"
+    "code": "P19",
+    "file": "article-custody.html",
+    "name": "親權與主要照顧安排：把子女最佳利益說清楚",
+    "url": "https://www.hlaglobal.com.tw/article-custody.html",
+    "index": true
   },
   {
-    "code": "P10",
-    "file": "family-wealth.html",
-    "name": "家事與財富傳承"
+    "code": "P19",
+    "file": "article-divorce-options.html",
+    "name": "離婚要先協議、調解，還是提起訴訟？",
+    "url": "https://www.hlaglobal.com.tw/article-divorce-options.html",
+    "index": true
   },
   {
-    "code": "P11",
-    "file": "employment.html",
-    "name": "勞動與人力資源"
+    "code": "P19",
+    "file": "article-divorce-property.html",
+    "name": "離婚時的剩餘財產分配：先整理哪些資產與負債",
+    "url": "https://www.hlaglobal.com.tw/article-divorce-property.html",
+    "index": true
   },
   {
-    "code": "P12",
-    "file": "ip-technology.html",
-    "name": "智慧財產與科技"
+    "code": "P19",
+    "file": "article-employment.html",
+    "name": "從招募到離職：勞動制度的文件節點",
+    "url": "https://www.hlaglobal.com.tw/article-employment.html",
+    "index": true
   },
   {
-    "code": "P13",
-    "file": "people.html",
-    "name": "律師團隊"
+    "code": "P19",
+    "file": "article-estate-division.html",
+    "name": "遺產分割談不攏：從共同盤點到分割程序",
+    "url": "https://www.hlaglobal.com.tw/article-estate-division.html",
+    "index": true
   },
   {
-    "code": "P14",
-    "file": "li-hsin-ting.html",
-    "name": "李欣庭律師"
+    "code": "P19",
+    "file": "article-evidence.html",
+    "name": "爭議發生前後，證據與時間軸如何保存",
+    "url": "https://www.hlaglobal.com.tw/article-evidence.html",
+    "index": true
   },
   {
-    "code": "P15",
-    "file": "cheng-tien-hao.html",
-    "name": "鄭典顥律師"
+    "code": "P19",
+    "file": "article-governance.html",
+    "name": "公司決策權限，應如何留下可追溯紀錄",
+    "url": "https://www.hlaglobal.com.tw/article-governance.html",
+    "index": true
   },
   {
-    "code": "P16",
-    "file": "liu-tien-hsi.html",
-    "name": "劉添錫律師"
+    "code": "P19",
+    "file": "article-inheritance-debt.html",
+    "name": "繼承遇到債務：限定責任、拋棄繼承與遺產清冊",
+    "url": "https://www.hlaglobal.com.tw/article-inheritance-debt.html",
+    "index": true
   },
   {
-    "code": "P17",
-    "file": "insights.html",
-    "name": "法律觀點"
+    "code": "P19",
+    "file": "article-inheritance-registration.html",
+    "name": "共有繼承不動產：繼承登記、管理與分割怎麼銜接",
+    "url": "https://www.hlaglobal.com.tw/article-inheritance-registration.html",
+    "index": true
   },
   {
-    "code": "P18",
-    "file": "insights-category.html",
-    "name": "文章分類"
+    "code": "P19",
+    "file": "article-inheritance.html",
+    "name": "繼承安排先從哪些資料開始整理",
+    "url": "https://www.hlaglobal.com.tw/article-inheritance.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-investigation.html",
+    "name": "收到偵查通知後，第一步先整理什麼",
+    "url": "https://www.hlaglobal.com.tw/article-investigation.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-jurisdiction.html",
+    "name": "跨境契約的管轄與準據法，先問哪些問題",
+    "url": "https://www.hlaglobal.com.tw/article-jurisdiction.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-land-partition.html",
+    "name": "共有土地怎麼分割？原物、變價與補償的比較",
+    "url": "https://www.hlaglobal.com.tw/article-land-partition.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-online-fraud.html",
+    "name": "網路交易遇到詐騙：從金流與對話整理報案資料",
+    "url": "https://www.hlaglobal.com.tw/article-online-fraud.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-parking.html",
+    "name": "買房附車位：從登記到使用權的檢查順序",
+    "url": "https://www.hlaglobal.com.tw/article-parking.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-property.html",
+    "name": "不動產交易前，如何整理權利與文件",
+    "url": "https://www.hlaglobal.com.tw/article-property.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-rental-return.html",
+    "name": "房客不搬離時：終止租約、返還房屋與點交",
+    "url": "https://www.hlaglobal.com.tw/article-rental-return.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-risk.html",
+    "name": "爭議發生前，先確認風險分配",
+    "url": "https://www.hlaglobal.com.tw/article-risk.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-secrets.html",
+    "name": "員工離職與營業秘密：從權限到交接",
+    "url": "https://www.hlaglobal.com.tw/article-secrets.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-shared-use.html",
+    "name": "共有房屋被一人使用：管理、費用與使用補償",
+    "url": "https://www.hlaglobal.com.tw/article-shared-use.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-shareholder.html",
+    "name": "股東意見分歧時，如何重建公司決策過程",
+    "url": "https://www.hlaglobal.com.tw/article-shareholder.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-support-enforcement.html",
+    "name": "對方不付扶養費：催告、調解與強制執行的順序",
+    "url": "https://www.hlaglobal.com.tw/article-support-enforcement.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-technology.html",
+    "name": "產品上線前，如何檢視資料、授權與平台條款",
+    "url": "https://www.hlaglobal.com.tw/article-technology.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-transaction.html",
+    "name": "交易文件與履行節點的整理方法",
+    "url": "https://www.hlaglobal.com.tw/article-transaction.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-visitation.html",
+    "name": "會面交往如何安排？接送、假日與履行困難",
+    "url": "https://www.hlaglobal.com.tw/article-visitation.html",
+    "index": true
+  },
+  {
+    "code": "P19",
+    "file": "article-will-reserved-share.html",
+    "name": "遺囑與特留分：傳承安排不能只看分配比例",
+    "url": "https://www.hlaglobal.com.tw/article-will-reserved-share.html",
+    "index": true
   },
   {
     "code": "P19",
     "file": "article.html",
-    "name": "文章閱讀"
+    "name": "文章閱讀",
+    "url": "https://www.hlaglobal.com.tw/article.html",
+    "index": true
   },
   {
-    "code": "P20",
-    "file": "global-reach.html",
-    "name": "國際視野"
-  },
-  {
-    "code": "P21",
-    "file": "lawai.html",
-    "name": "LawAI"
+    "code": "P15",
+    "file": "cheng-tien-hao.html",
+    "name": "鄭典顥律師",
+    "url": "https://www.hlaglobal.com.tw/cheng-tien-hao.html",
+    "index": true
   },
   {
     "code": "P22",
     "file": "consultation.html",
-    "name": "預約諮詢"
+    "name": "預約諮詢",
+    "url": "https://www.hlaglobal.com.tw/consultation.html",
+    "index": true
   },
   {
     "code": "P23",
     "file": "contact.html",
-    "name": "聯絡我們"
+    "name": "聯絡我們",
+    "url": "https://www.hlaglobal.com.tw/contact.html",
+    "index": true
   },
   {
-    "code": "P24",
-    "file": "search.html",
-    "name": "搜尋"
+    "code": "P05",
+    "file": "corporate.html",
+    "name": "企業與商務",
+    "url": "https://www.hlaglobal.com.tw/corporate.html",
+    "index": true
   },
   {
-    "code": "P25",
-    "file": "privacy.html",
-    "name": "隱私權政策"
+    "code": "P09",
+    "file": "criminal.html",
+    "name": "刑事與企業刑事",
+    "url": "https://www.hlaglobal.com.tw/criminal.html",
+    "index": true
   },
   {
-    "code": "P26",
-    "file": "terms.html",
-    "name": "網站使用條款"
+    "code": "P07",
+    "file": "cross-border.html",
+    "name": "跨境與國際爭議",
+    "url": "https://www.hlaglobal.com.tw/cross-border.html",
+    "index": true
   },
   {
     "code": "P27",
     "file": "disclaimer.html",
-    "name": "法律聲明"
+    "name": "法律聲明",
+    "url": "https://www.hlaglobal.com.tw/disclaimer.html",
+    "index": false
+  },
+  {
+    "code": "P06",
+    "file": "disputes.html",
+    "name": "民商事爭議",
+    "url": "https://www.hlaglobal.com.tw/disputes.html",
+    "index": true
+  },
+  {
+    "code": "P11",
+    "file": "employment.html",
+    "name": "勞動與人力資源",
+    "url": "https://www.hlaglobal.com.tw/employment.html",
+    "index": true
+  },
+  {
+    "code": "P04",
+    "file": "expertise.html",
+    "name": "專業領域",
+    "url": "https://www.hlaglobal.com.tw/expertise.html",
+    "index": true
+  },
+  {
+    "code": "P10",
+    "file": "family-wealth.html",
+    "name": "家事與財富傳承",
+    "url": "https://www.hlaglobal.com.tw/family-wealth.html",
+    "index": true
+  },
+  {
+    "code": "P20",
+    "file": "global-reach.html",
+    "name": "國際視野",
+    "url": "https://www.hlaglobal.com.tw/global-reach.html",
+    "index": true
+  },
+  {
+    "code": "P00",
+    "file": "index.html",
+    "name": "首頁",
+    "url": "https://www.hlaglobal.com.tw/",
+    "index": true
+  },
+  {
+    "code": "P17",
+    "file": "insights-2.html",
+    "name": "法律觀點｜第2頁",
+    "url": "https://www.hlaglobal.com.tw/insights-2.html",
+    "index": true
+  },
+  {
+    "code": "P17",
+    "file": "insights-3.html",
+    "name": "法律觀點｜第3頁",
+    "url": "https://www.hlaglobal.com.tw/insights-3.html",
+    "index": true
+  },
+  {
+    "code": "P17",
+    "file": "insights-4.html",
+    "name": "法律觀點｜第4頁",
+    "url": "https://www.hlaglobal.com.tw/insights-4.html",
+    "index": true
+  },
+  {
+    "code": "P18",
+    "file": "insights-category.html",
+    "name": "文章分類",
+    "url": "https://www.hlaglobal.com.tw/insights-category.html",
+    "index": true
+  },
+  {
+    "code": "P17",
+    "file": "insights.html",
+    "name": "法律觀點",
+    "url": "https://www.hlaglobal.com.tw/insights.html",
+    "index": true
+  },
+  {
+    "code": "P12",
+    "file": "ip-technology.html",
+    "name": "智慧財產與科技",
+    "url": "https://www.hlaglobal.com.tw/ip-technology.html",
+    "index": true
+  },
+  {
+    "code": "P21",
+    "file": "lawai.html",
+    "name": "LawAI",
+    "url": "https://www.hlaglobal.com.tw/lawai.html",
+    "index": true
+  },
+  {
+    "code": "P14",
+    "file": "li-hsin-ting.html",
+    "name": "李欣庭律師",
+    "url": "https://www.hlaglobal.com.tw/li-hsin-ting.html",
+    "index": true
+  },
+  {
+    "code": "P16",
+    "file": "liu-tien-hsi.html",
+    "name": "劉添錫律師",
+    "url": "https://www.hlaglobal.com.tw/liu-tien-hsi.html",
+    "index": true
+  },
+  {
+    "code": "P13",
+    "file": "people.html",
+    "name": "律師團隊",
+    "url": "https://www.hlaglobal.com.tw/people.html",
+    "index": true
+  },
+  {
+    "code": "P02",
+    "file": "philosophy.html",
+    "name": "品牌理念",
+    "url": "https://www.hlaglobal.com.tw/philosophy.html",
+    "index": true
+  },
+  {
+    "code": "P25",
+    "file": "privacy.html",
+    "name": "隱私權政策",
+    "url": "https://www.hlaglobal.com.tw/privacy.html",
+    "index": false
+  },
+  {
+    "code": "P08",
+    "file": "real-estate.html",
+    "name": "土地與不動產",
+    "url": "https://www.hlaglobal.com.tw/real-estate.html",
+    "index": true
+  },
+  {
+    "code": "P24",
+    "file": "search.html",
+    "name": "搜尋",
+    "url": "https://www.hlaglobal.com.tw/search.html",
+    "index": false
+  },
+  {
+    "code": "P26",
+    "file": "terms.html",
+    "name": "網站使用條款",
+    "url": "https://www.hlaglobal.com.tw/terms.html",
+    "index": false
   },
   {
     "code": "P28",
     "file": "thank-you.html",
-    "name": "完成狀態"
-  },
-  {
-    "code": "P29",
-    "file": "404.html",
-    "name": "找不到頁面"
-  },
-  {
-    "code": "P19-divorce-options",
-    "file": "article-divorce-options.html",
-    "name": "離婚要先協議、調解，還是提起訴訟？"
-  },
-  {
-    "code": "P19-divorce-property",
-    "file": "article-divorce-property.html",
-    "name": "離婚時的剩餘財產分配：先整理哪些資產與負債"
-  },
-  {
-    "code": "P19-child-support",
-    "file": "article-child-support.html",
-    "name": "子女扶養費怎麼計算？從生活支出到父母分擔"
-  },
-  {
-    "code": "P19-support-enforcement",
-    "file": "article-support-enforcement.html",
-    "name": "對方不付扶養費：催告、調解與強制執行的順序"
-  },
-  {
-    "code": "P19-custody",
-    "file": "article-custody.html",
-    "name": "親權與主要照顧安排：把子女最佳利益說清楚"
-  },
-  {
-    "code": "P19-visitation",
-    "file": "article-visitation.html",
-    "name": "會面交往如何安排？接送、假日與履行困難"
-  },
-  {
-    "code": "P19-inheritance-debt",
-    "file": "article-inheritance-debt.html",
-    "name": "繼承遇到債務：限定責任、拋棄繼承與遺產清冊"
-  },
-  {
-    "code": "P19-estate-division",
-    "file": "article-estate-division.html",
-    "name": "遺產分割談不攏：從共同盤點到分割程序"
-  },
-  {
-    "code": "P19-will-reserved-share",
-    "file": "article-will-reserved-share.html",
-    "name": "遺囑與特留分：傳承安排不能只看分配比例"
-  },
-  {
-    "code": "P19-inheritance-registration",
-    "file": "article-inheritance-registration.html",
-    "name": "共有繼承不動產：繼承登記、管理與分割怎麼銜接"
-  },
-  {
-    "code": "P19-land-partition",
-    "file": "article-land-partition.html",
-    "name": "共有土地怎麼分割？原物、變價與補償的比較"
-  },
-  {
-    "code": "P19-coowner-sale",
-    "file": "article-coowner-sale.html",
-    "name": "共有人要出售土地：同意比例與優先承購怎麼確認"
-  },
-  {
-    "code": "P19-shared-use",
-    "file": "article-shared-use.html",
-    "name": "共有房屋被一人使用：管理、費用與使用補償"
-  },
-  {
-    "code": "P19-rental-return",
-    "file": "article-rental-return.html",
-    "name": "房客不搬離時：終止租約、返還房屋與點交"
-  },
-  {
-    "code": "P19-inheritance",
-    "file": "article-inheritance.html",
-    "name": "繼承安排先從哪些資料開始整理"
-  },
-  {
-    "code": "P19-childcare",
-    "file": "article-childcare.html",
-    "name": "分開居住後，子女照顧安排如何具體化"
-  },
-  {
-    "code": "P19-criminal-rights",
-    "file": "article-criminal-rights.html",
-    "name": "第一次警詢前，先認識陳述權利與證據保存"
-  },
-  {
-    "code": "P19-online-fraud",
-    "file": "article-online-fraud.html",
-    "name": "網路交易遇到詐騙：從金流與對話整理報案資料"
-  },
-  {
-    "code": "P19-investigation",
-    "file": "article-investigation.html",
-    "name": "收到偵查通知後，第一步先整理什麼"
-  },
-  {
-    "code": "P19-evidence",
-    "file": "article-evidence.html",
-    "name": "爭議發生前後，證據與時間軸如何保存"
-  },
-  {
-    "code": "P19-governance",
-    "file": "article-governance.html",
-    "name": "公司決策權限，應如何留下可追溯紀錄"
-  },
-  {
-    "code": "P19-shareholder",
-    "file": "article-shareholder.html",
-    "name": "股東意見分歧時，如何重建公司決策過程"
-  },
-  {
-    "code": "P19-risk",
-    "file": "article-risk.html",
-    "name": "爭議發生前，先確認風險分配"
-  },
-  {
-    "code": "P19-transaction",
-    "file": "article-transaction.html",
-    "name": "交易文件與履行節點的整理方法"
-  },
-  {
-    "code": "P19-property",
-    "file": "article-property.html",
-    "name": "不動產交易前，如何整理權利與文件"
-  },
-  {
-    "code": "P19-parking",
-    "file": "article-parking.html",
-    "name": "買房附車位：從登記到使用權的檢查順序"
-  },
-  {
-    "code": "P19-employment",
-    "file": "article-employment.html",
-    "name": "從招募到離職：勞動制度的文件節點"
-  },
-  {
-    "code": "P19-secrets",
-    "file": "article-secrets.html",
-    "name": "員工離職與營業秘密：從權限到交接"
-  },
-  {
-    "code": "P19-technology",
-    "file": "article-technology.html",
-    "name": "產品上線前，如何檢視資料、授權與平台條款"
-  },
-  {
-    "code": "P19-ai-rights",
-    "file": "article-ai-rights.html",
-    "name": "生成式 AI 作品的素材來源與授權怎麼查"
-  },
-  {
-    "code": "P19-jurisdiction",
-    "file": "article-jurisdiction.html",
-    "name": "跨境契約的管轄與準據法，先問哪些問題"
-  },
-  {
-    "code": "P17-2",
-    "file": "insights-2.html",
-    "name": "法律觀點｜第2頁"
-  },
-  {
-    "code": "P17-3",
-    "file": "insights-3.html",
-    "name": "法律觀點｜第3頁"
-  },
-  {
-    "code": "P17-4",
-    "file": "insights-4.html",
-    "name": "法律觀點｜第4頁"
-  },
-  {
-    "code": "P17-2",
-    "file": "insights-2.html",
-    "name": "法律觀點｜第2頁"
-  },
-  {
-    "code": "P17-3",
-    "file": "insights-3.html",
-    "name": "法律觀點｜第3頁"
-  },
-  {
-    "code": "P17-4",
-    "file": "insights-4.html",
-    "name": "法律觀點｜第4頁"
-  },
-  {
-    "code": "P17-2",
-    "file": "insights-2.html",
-    "name": "法律觀點｜第2頁"
-  },
-  {
-    "code": "P17-3",
-    "file": "insights-3.html",
-    "name": "法律觀點｜第3頁"
-  },
-  {
-    "code": "P17-4",
-    "file": "insights-4.html",
-    "name": "法律觀點｜第4頁"
+    "name": "完成狀態",
+    "url": "https://www.hlaglobal.com.tw/thank-you.html",
+    "index": false
   }
 ]

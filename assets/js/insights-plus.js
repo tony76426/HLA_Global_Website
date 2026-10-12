@@ -32,7 +32,9 @@
     const img = node('img');
     img.src = a.image; img.alt = a.title + '的文章封面';
     img.width = a.width; img.height = a.height; img.loading = 'lazy'; img.decoding = 'async';
-    if (a.new) {
+    if (a.srcset) {
+      img.srcset = a.srcset; img.sizes = a.sizes;
+    } else if (a.new) {
       img.srcset = [480, 768, 1200, 1600].map(w => `assets/images/insights/plus/${a.slug}-${w}.webp ${w}w`).join(', ');
       img.sizes = '(max-width: 720px) calc(100vw - 36px), (max-width: 1023px) calc((100vw - 88px) / 2), (max-width: 1344px) calc((100vw - 120px) / 3), 408px';
     }
