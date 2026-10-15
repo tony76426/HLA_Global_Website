@@ -111,12 +111,30 @@
     if (!enabled || document.getElementById('hla-consent')) return;
     const panel=document.createElement('div');panel.id='hla-consent';panel.className='hla-consent';
     panel.setAttribute('role','region');panel.setAttribute('aria-label','網站分析選擇');
-    const text=document.createElement('p');text.textContent='經您同意才載入 Google Analytics，紀錄頁面與操作事件；不傳送案件內容或聯絡資料。';
+    const inner=document.createElement('div');inner.className='hla-consent-inner';
+    const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');
+    icon.setAttribute('viewBox','0 0 24 24');icon.setAttribute('aria-hidden','true');icon.classList.add('hla-consent-icon');
+    const shield=document.createElementNS('http://www.w3.org/2000/svg','path');
+    shield.setAttribute('d','M12 3 4 6v6c0 4 4 7 8 9 4-2 8-5 8-9V6l-8-3Z M8.5 12l2.5 2.5 4.5-5');icon.append(shield);
+    const copy=document.createElement('div');copy.className='hla-consent-copy';
+    const title=document.createElement('strong');title.className='hla-consent-title';title.textContent='網站隱私與分析設定';
+    const text=document.createElement('p');
+    const desktopName=document.createElement('span');desktopName.className='hla-consent-desktop';desktopName.textContent='Google Analytics';
+    const mobileName=document.createElement('span');mobileName.className='hla-consent-mobile';mobileName.textContent='GA4';
+    text.append('同意後才啟用 ',desktopName,mobileName,'，不傳送聯絡資料或案件內容。');
     const privacy=document.createElement('a');privacy.href='privacy.html';privacy.textContent='隱私權政策';text.append(' ',privacy);
+    copy.append(title,text);
     const actions=document.createElement('div');actions.className='hla-consent-actions';
-    const allow=document.createElement('button');allow.type='button';allow.textContent='同意網站分析';
+    const allow=document.createElement('button');allow.type='button';allow.textContent='同意分析';
     const deny=document.createElement('button');deny.type='button';deny.textContent='拒絕分析';
-    actions.append(allow,deny);panel.append(text,actions);document.body.append(panel);
+    actions.append(allow,deny);inner.append(icon,copy,actions);panel.append(inner);
+    const spacer=document.createElement('div');spacer.className='hla-consent-spacer';spacer.setAttribute('aria-hidden','true');
+    document.body.append(spacer,panel);
+    // Use the rendered height so enlarged text, rotation and safe areas cannot
+    // leave the contact controls behind the bar. This is layout only.
+    const fit=()=>document.documentElement.style.setProperty('--hla-consent-height',Math.ceil(panel.getBoundingClientRect().height)+'px');
+    const observer=typeof ResizeObserver==='function' ? new ResizeObserver(fit) : null;
+    observer?.observe(panel);window.addEventListener('resize',fit);fit();
     const choose=state => {
       consent=state==='granted';
       try { localStorage.setItem('hla-analytics-consent-v1',state); } catch {}
@@ -130,7 +148,9 @@
         window['ga-disable-'+id]=true;
         if (window.gtag) window.gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
       }
-      panel.remove();
+      observer?.disconnect();window.removeEventListener('resize',fit);
+      document.documentElement.style.removeProperty('--hla-consent-height');
+      panel.remove();spacer.remove();
     };
     allow.addEventListener('click',()=>choose('granted'));deny.addEventListener('click',()=>choose('denied'));
   }
