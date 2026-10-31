@@ -7,7 +7,7 @@ window.HLA_CONFIG = {
   "social": {
     "facebook": "https://www.facebook.com/profile.php?id=61588191256082",
     "instagram": "https://www.instagram.com/katrina_lawyer_/",
-    "line": "https://lin.ee/viVMrVC"
+    "line": "https://lin.ee/oTJQnuJ"
   },
   "intakeMode": "local-summary",
   "intakeEndpoint": "",

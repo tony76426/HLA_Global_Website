@@ -1,0 +1,29 @@
+/* V5.2 additions use the retained V5.1 brand fonts, colors and spacing. */
+.seo-service-brief-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}
+.seo-service-brief-grid article{min-width:0;padding-top:24px;border-top:1px solid rgba(87,54,58,.18)}
+.seo-service-brief-grid h3,.seo-access-grid h3{font-family:inherit;font-size:1.2rem;line-height:1.6;margin:0 0 14px;color:inherit}
+.seo-service-brief-grid p,.seo-access-grid p{line-height:1.95;margin:0 0 16px}
+.seo-service-brief-grid ul{margin:0;padding-left:1.15em;display:grid;gap:10px}
+.seo-service-brief a,.seo-access-grid a,.seo-category-guide a,.seo-article-route a,.seo-local-copy a,.seo-legacy-category a,.seo-topic-browse a{color:inherit;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px;overflow-wrap:anywhere}
+.seo-service-brief a:hover,.seo-access-grid a:hover,.seo-article-route a:hover{text-decoration-thickness:2px}
+.seo-article-route{display:flex;flex-wrap:wrap;gap:10px 24px;margin:20px 0 28px;font-size:.94rem;line-height:1.7}
+.article-related-practice>p{font-size:1rem;line-height:1.85;margin:14px 0 22px}
+.article-related-practice .seo-secondary-practice{margin-top:12px}
+.seo-access-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin-top:36px}
+.seo-access-grid article{padding-top:22px;border-top:1px solid rgba(87,54,58,.18);min-width:0}
+.seo-access-grid a{display:block;width:fit-content;margin-top:12px;line-height:1.7}
+.seo-local-copy{font-size:.95rem;line-height:1.85;margin:18px 0;max-width:70ch}
+.home-connect-heading .seo-local-copy{margin-top:20px;max-width:62ch}
+.seo-category-guide{padding:22px 26px;margin:0 0 28px;border-left:3px solid #6b303d;background:rgba(107,48,61,.045);line-height:1.85}
+.seo-category-guide p{margin:0 0 8px}
+.seo-category-guide strong{display:block;margin-bottom:6px}
+.seo-category-guide[hidden],.insights-pagination-plus[hidden]{display:none!important}
+.seo-legacy-category{margin-top:22px;line-height:1.85}
+.seo-legacy-category a{margin-right:20px}
+.seo-topic-browse{line-height:1.8;margin-top:16px}
+.cta-band p a{color:inherit;text-decoration:underline;text-underline-offset:4px}
+.footer-contact{font-style:normal}
+:is(.seo-service-brief,.seo-access-grid,.seo-article-route,.seo-category-guide) a:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+#office-access,#related-insights,#criminal-notice{scroll-margin-top:150px}
+@media(max-width:1000px){.seo-access-grid{grid-template-columns:1fr;gap:24px}}
+@media(max-width:720px){.seo-service-brief-grid{grid-template-columns:1fr;gap:26px}.seo-service-brief-grid h3,.seo-access-grid h3{font-size:1.12rem}.seo-article-route{display:grid;gap:12px;font-size:.9rem}.seo-category-guide{padding:18px 20px}.seo-local-copy{font-size:.9rem}.article-related-practice a{flex-direction:column;align-items:flex-start;gap:6px}}

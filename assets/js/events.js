@@ -12,13 +12,13 @@
   const enabled = analytics.enabled === true && /^G-[A-Z0-9]+$/.test(id) && location.origin === formal.origin;
   // GA4's remotely configured enhanced measurement can read the actual query string,
   // even when page_location is sanitized. Only fixed public category URLs are allowed.
-  const publicCategories = new Set(['全部','家事與財富','不動產','刑事程序','企業與投資','民商爭議','跨境','勞動','智慧財產與科技']);
+  const publicCategories = new Set(['全部','家事與財富','不動產','刑事程序','企業與投資','民商爭議','跨境','勞動','科技智財','智慧財產與科技']);
   const query = new URLSearchParams(location.search);
   const safeQuery = !location.search || ([...query].length === 1 && query.has('category') && publicCategories.has(query.get('category')));
   const canCollect = enabled && safeQuery;
   const permitted = new Set(['click_line','click_phone','click_email','click_consult','start_form',
     'submit_form','generate_lead','download_intake_summary','view_lawyer','view_practice',
-    'site_search','article_to_service','article_to_lawyer']);
+    'site_search','article_to_service','article_to_lawyer','view_article','select_article_category','click_directions']);
   const practiceFiles = new Set(['corporate.html','disputes.html','cross-border.html','real-estate.html',
     'criminal.html','family-wealth.html','employment.html','ip-technology.html']);
   const lawyerFiles = new Set(['li-hsin-ting.html','liu-tien-hsi.html','cheng-tien-hao.html']);
@@ -46,9 +46,10 @@
   function clean(name, data) {
     // Explicit allowlist: no arbitrary strings, email, phone, query, title or user input.
     const result = {page_path: pagePath};
-    if (['direct','qr','navigation','summary','api'].includes(data.mode)) result.interaction_mode = data.mode;
+    if (['direct','qr','navigation','summary','api','transit','walking','driving'].includes(data.mode)) result.interaction_mode = data.mode;
     if (['header','footer','floating','article','main'].includes(data.position)) result.link_position = data.position;
     if (['全部','專業領域','律師','文章','其他'].includes(data.search_category)) result.search_category = data.search_category;
+    if (publicCategories.has(data.article_category)) result.article_category = data.article_category === '智慧財產與科技' ? '科技智財' : data.article_category;
     if (Number.isInteger(data.result_count)) result.result_count = Math.max(0,Math.min(1000,data.result_count));
     if (typeof data.target_path === 'string' && targetFiles.has(data.target_path.slice(1)) && data.target_path.startsWith('/')) result.target_path = data.target_path;
     return result;
@@ -102,6 +103,7 @@
     google('page_view',{page_path:pagePath,page_title:document.title});
     if (practiceFiles.has(pageFile)) track('view_practice',{},'page');
     if (lawyerFiles.has(pageFile)) track('view_lawyer',{},'page');
+    if (document.body.dataset.page === 'P19') track('view_article',{},'page');
     // Completion-page delivery avoids losing confirmed conversions during a fast redirect.
     // The pending entries are consumed once, and only the API-confirmed 'sent' state permits a lead.
     for (const item of arrivalEvents) google(item.name,{page_path:pagePath,interaction_mode:item.mode,source_page:'/consultation.html'});
@@ -163,12 +165,17 @@
   }
   if (practiceFiles.has(pageFile)) track('view_practice',{},'page');
   if (lawyerFiles.has(pageFile)) track('view_lawyer',{},'page');
+  if (document.body.dataset.page === 'P19') track('view_article',{},'page');
   document.addEventListener('click',event=>{
     const link=event.target.closest('a[href]');if(!link)return;
     const href=link.getAttribute('href');
     const position=link.closest('.line-widget')?'floating':link.closest('header')?'header':link.closest('footer')?'footer':document.body.dataset.page==='P19'?'article':'main';
     if (href.startsWith('tel:')) track('click_phone',{position});
     else if (href.startsWith('mailto:')) track('click_email',{position});
+    else if (/^https:\/\/www\.google\.com\/maps\//.test(href)) {
+      const mode = new URL(href).searchParams.get('travelmode');
+      track('click_directions',{position,mode:['transit','walking','driving'].includes(mode) ? mode : 'navigation'});
+    }
     else if (/^https:\/\/(lin\.ee|line\.me)\//.test(href)) {
       const qr=link.classList.contains('line-float-btn') && !matchMedia('(max-width:900px)').matches;
       // Clicking again to close the QR is not a second consultation click.

@@ -361,7 +361,7 @@
     "file": "insights-category.html",
     "name": "文章分類",
     "url": "https://www.hlaglobal.com.tw/insights-category.html",
-    "index": true
+    "index": false
   },
   {
     "code": "P17",

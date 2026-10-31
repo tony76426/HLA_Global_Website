@@ -1,0 +1,96 @@
+{
+  "version": "5.2",
+  "runtime": "Node VM with controlled DOM stubs; not a browser rendering test",
+  "passed": 22,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "Unfiltered library preserves static HTML and pagination",
+      "passed": true
+    },
+    {
+      "name": "Filter 家事與財富 returns all 11 matching articles",
+      "passed": true
+    },
+    {
+      "name": "Filter 不動產 returns all 7 matching articles",
+      "passed": true
+    },
+    {
+      "name": "Filter 刑事程序 returns all 3 matching articles",
+      "passed": true
+    },
+    {
+      "name": "Filter 民商爭議 returns all 1 matching articles",
+      "passed": true
+    },
+    {
+      "name": "Filter 企業與投資 returns all 5 matching articles",
+      "passed": true
+    },
+    {
+      "name": "Filter 勞動 returns all 2 matching articles",
+      "passed": true
+    },
+    {
+      "name": "Filter 科技智財 returns all 2 matching articles",
+      "passed": true
+    },
+    {
+      "name": "Filter 跨境 returns all 1 matching articles",
+      "passed": true
+    },
+    {
+      "name": "Switching category and back restores the original static listing",
+      "passed": true
+    },
+    {
+      "name": "Old category URLs migrate to fragment without losing category",
+      "passed": true
+    },
+    {
+      "name": "Old technology taxonomy is normalized",
+      "passed": true
+    },
+    {
+      "name": "Unsafe and inherited-property category values do not create cards or tracking",
+      "passed": true
+    },
+    {
+      "name": "Additional query parameters are not silently removed by migration",
+      "passed": true
+    },
+    {
+      "name": "Article view sent once after consent; no duplicate automatic view",
+      "passed": true
+    },
+    {
+      "name": "Declining analytics loads no Google script and records no interactions",
+      "passed": true
+    },
+    {
+      "name": "Local/offline preview never sends analytics",
+      "passed": true
+    },
+    {
+      "name": "Search query suppresses tracking even with stored consent",
+      "passed": true
+    },
+    {
+      "name": "Technology category query uses the same public allowlist",
+      "passed": true
+    },
+    {
+      "name": "Directions clicks retain only fixed public travel modes",
+      "passed": true
+    },
+    {
+      "name": "Draft summaries cannot become generate_lead events",
+      "passed": true
+    },
+    {
+      "name": "Event payload allowlist drops arbitrary personal information",
+      "passed": true
+    }
+  ]
+}

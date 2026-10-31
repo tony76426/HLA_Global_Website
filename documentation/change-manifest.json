@@ -1,0 +1,489 @@
+{
+  "version": "5.2",
+  "sole_website_source": "HLA_Global_SEO_V5.1_Website.zip",
+  "source_zip_sha256": "ad0b11d18a27ebae719eb5cdb3675aa2c93d66245529d60f149155280db9c3d6",
+  "strategy": "HLA_SEO_Strategy(1).docx",
+  "strategy_sha256": "a049a6a7017da7639040f7e0084254cbeef2dff945688cad849eff2041887f71",
+  "changes": [
+    {
+      "file": "README.md",
+      "status": "added",
+      "sha256": "cd3d0674b932e36788093e566d9a63a79b947c01b48b9d19c23ef04c8ef886cf",
+      "baseline_sha256": null
+    },
+    {
+      "file": "documentation/Deployment_and_QA.md",
+      "status": "added",
+      "sha256": "974f8b9efe58e8edd63ab032931b3b3cd7228efb962b3c84cc6cc082c15ff2ac",
+      "baseline_sha256": null
+    },
+    {
+      "file": "documentation/Google_Backend_Checklist.md",
+      "status": "added",
+      "sha256": "601b4fbfd6c6cbb28331170049e069c91e8a59232579bcf2e693298a43f6c455",
+      "baseline_sha256": null
+    },
+    {
+      "file": "documentation/Implementation_Checklist.md",
+      "status": "added",
+      "sha256": "7e465fe0fcf627b39b117d95bfff3fa6df6ebf8a219a38f7c4e2d2e49f8107bf",
+      "baseline_sha256": null
+    },
+    {
+      "file": "documentation/article-link-matrix.csv",
+      "status": "added",
+      "sha256": "5d78fa54e847d7f482d6f5fbdfa47c021e5fbc70bd606ff796a6a89c7c1db969",
+      "baseline_sha256": null
+    },
+    {
+      "file": "documentation/category-service-map.csv",
+      "status": "added",
+      "sha256": "ce63fc0ce546e7237caa631083fb8904900ba63d74f848965823e17ac5ccadf9",
+      "baseline_sha256": null
+    },
+    {
+      "file": "documentation/interaction-validation-report.json",
+      "status": "added",
+      "sha256": "0745644db10cb14c08fc53e478194404961c09737c3fa88c612bc41bce9a80a8",
+      "baseline_sha256": null
+    },
+    {
+      "file": "documentation/keyword-intent-matrix.csv",
+      "status": "added",
+      "sha256": "c28a8a49614c19910ce07dfab4cb2f8780bc9d2e3cb07bb713610adc5b3ac9c4",
+      "baseline_sha256": null
+    },
+    {
+      "file": "documentation/measurement-baseline.csv",
+      "status": "added",
+      "sha256": "8e45ace5124eb2ef6ef8a595095e668924e525ae1a2d506f43f67cd047ec0c2d",
+      "baseline_sha256": null
+    },
+    {
+      "file": "documentation/static-validation-report.json",
+      "status": "added",
+      "sha256": "b4eda05a52d3e987c7a2c0f3fa3e8a2e571de490e079123ff603ae6a60e1659c",
+      "baseline_sha256": null
+    },
+    {
+      "file": "website/404.html",
+      "status": "modified",
+      "sha256": "4808ae596e328aee37388bc9d207dcbf77abfa527b9f20aa82b6c2dc9e3b427c",
+      "baseline_sha256": "80df44dbd3a1add840da50743dc43d578e827c96f4f48edad0bd3a81917e95cb"
+    },
+    {
+      "file": "website/about.html",
+      "status": "modified",
+      "sha256": "a93567d023641eca82829e275b40af6eb1af9abd5488c2e868a6d69bc6158453",
+      "baseline_sha256": "db724ca4fbfdd2b18e2bfcf57a8680fd6eb47d6a70961a021fd689e56a4a0d11"
+    },
+    {
+      "file": "website/approach.html",
+      "status": "modified",
+      "sha256": "57e1e27b9bcf5564689e66247c12598df975a92786e67aae4c7ed91454d4f442",
+      "baseline_sha256": "bc0c0752926275afe7aaa6fdc2551e7ae2c7ecabcb5170943d3917df6db7faeb"
+    },
+    {
+      "file": "website/article-ai-rights.html",
+      "status": "modified",
+      "sha256": "668b813aa89e77b09b9a7f978635f3f62d281011b1740cd4f1af4825e99abe21",
+      "baseline_sha256": "50b9ce5825a3af721c73cd1c8204665056948c4738a7bc90eccd57c1b1ee24a0"
+    },
+    {
+      "file": "website/article-child-support.html",
+      "status": "modified",
+      "sha256": "63f53d9c60c82a6b326d8dd7b0c8e9ac9e2f99a7d8d512e29c5b36d2341ba735",
+      "baseline_sha256": "71f8909656f1695c1d8c3a0412ae4d3c7a7b00fb713f918ba4649a3ffc739ab4"
+    },
+    {
+      "file": "website/article-childcare.html",
+      "status": "modified",
+      "sha256": "eccc4ea5fe609dc2e91d3911edfb44c60c96811641f45eef9e961fabe5d178cb",
+      "baseline_sha256": "f2fc6116eefbe1990c25f9617e9de6ee5a22bea6f4de78073702849957b8d94b"
+    },
+    {
+      "file": "website/article-coowner-sale.html",
+      "status": "modified",
+      "sha256": "29bac7995ad8959f31f9e01d0d97b1570006404eab9436e57ad7dca7b4018d98",
+      "baseline_sha256": "4c0657f4e59ed2c036637101f61d0160c70da8a61c29608b5d68258a7eb2b364"
+    },
+    {
+      "file": "website/article-criminal-rights.html",
+      "status": "modified",
+      "sha256": "39c1d7302f3983aae62d62a75aad97ae4021c6f2b831dfdae80a1f3ab8edcc9b",
+      "baseline_sha256": "6492b90c6084931cce3ce395130b07c52824f9811191ae54096e0da1e99508e7"
+    },
+    {
+      "file": "website/article-custody.html",
+      "status": "modified",
+      "sha256": "008e90b2f0dc7fcc05f6110f7c6e62faa0c224bb947bbf9367d7b9a3724f22a6",
+      "baseline_sha256": "7f8233df5edc0393e1deeeea1414226690cf535b3e8ce8a82d5ac624a994c151"
+    },
+    {
+      "file": "website/article-divorce-options.html",
+      "status": "modified",
+      "sha256": "ff0113f89979b804d895642f15c322d00b9a7e5e8820bd8e87c08f670f26ad12",
+      "baseline_sha256": "3b59c56a16562c2e539332de89bc24c5b4db5aa614522e8eae9a7e955785930c"
+    },
+    {
+      "file": "website/article-divorce-property.html",
+      "status": "modified",
+      "sha256": "50a40a7de2ba334eae0832a9b8f631903a00476ab81f41e21f5342282cf784be",
+      "baseline_sha256": "98d4e375951a855ec45a3b7cafc6c1d6af8d3e17b6a42d4ad0328e3699b15185"
+    },
+    {
+      "file": "website/article-employment.html",
+      "status": "modified",
+      "sha256": "5afabfc9e0ca1f42b4fe671001dcd210efc368494b46856cc35ad5b7ab9bb92c",
+      "baseline_sha256": "e95c2ab5d7c59178ee819c808881459e411aee66087d2f575dc07d887dde78af"
+    },
+    {
+      "file": "website/article-estate-division.html",
+      "status": "modified",
+      "sha256": "0c66e643bbab052171e3f998f05cd4ef481329251c65ba8826b320a850ee513b",
+      "baseline_sha256": "eedb4bd0cae1f588fa32072eea2bb946bd2d0384a8f907fde815f6f7f03648ca"
+    },
+    {
+      "file": "website/article-evidence.html",
+      "status": "modified",
+      "sha256": "40f18a66c1fa35bf3c9347214b717f0fa254693e84eda430efc8794a27b6aaa5",
+      "baseline_sha256": "3e5500d56bdd07bf6589878c8efd2814be52509f294bb811656b54828c84a282"
+    },
+    {
+      "file": "website/article-governance.html",
+      "status": "modified",
+      "sha256": "c9efb8a9ddf1866947e300efbc6521d7cf75e918de28065c4dcfade2c01a2764",
+      "baseline_sha256": "97b007b698a8c1275967df8a08786c49fb86b3a9db50d72ed3daabedc41afc39"
+    },
+    {
+      "file": "website/article-inheritance-debt.html",
+      "status": "modified",
+      "sha256": "b243fab8589b826a59c880d4a66e743787f7b0dda0d0ba82b06b67ed728c5661",
+      "baseline_sha256": "523235afcf06eef05c3464e334aee5857d15d54dbd8b3397f1fdbe4144fce147"
+    },
+    {
+      "file": "website/article-inheritance-registration.html",
+      "status": "modified",
+      "sha256": "888dc11da5658c6a35dc2852b035ed71440e00cb4194ba0f20aab3bd123def5c",
+      "baseline_sha256": "c5cae4e1fe6cd0d48a1b3b4e72de8e02cb380fc5967c3d3f4bfc0a7eddcbb46d"
+    },
+    {
+      "file": "website/article-inheritance.html",
+      "status": "modified",
+      "sha256": "678ecb911f9888b3b773fd81bd8bde8d92265eb66d234bd668ae0e3110d75d54",
+      "baseline_sha256": "a5105a57c7a4366e83f60abe1bb1a26c4b82059585ceb80bbdcfd72a55ca486c"
+    },
+    {
+      "file": "website/article-investigation.html",
+      "status": "modified",
+      "sha256": "666745d0c95df1978434cd8b143eeb2ebe6a118d8ded4636fa5d171200c50fd1",
+      "baseline_sha256": "9ed89dbd883cbaddea2a41eb61b1d70152b8fe95d1df5bda988c1ef0242ea8a3"
+    },
+    {
+      "file": "website/article-jurisdiction.html",
+      "status": "modified",
+      "sha256": "dbb826cbe8bb6bf4b2f2721eb02456889e87946ac5858bdd11d4eff02eb0d8d3",
+      "baseline_sha256": "c35359a4db7f46e8b3a599b2674f58519024e99fac2ca1f6cd5252958f80b4d2"
+    },
+    {
+      "file": "website/article-land-partition.html",
+      "status": "modified",
+      "sha256": "bc5bc7608e825d510145bdf1cc99c6620f30530bb0efb0e81903053655f7de96",
+      "baseline_sha256": "4f563ff3b10ad62ad3696755269aa1583148e7b7d2c5a8a75e591400483ae01a"
+    },
+    {
+      "file": "website/article-online-fraud.html",
+      "status": "modified",
+      "sha256": "be269a67362405d5880729ca51d8521bda345dd930dbceb3b594e9818a318a1f",
+      "baseline_sha256": "ba8b52f49e64dfeb376f0c0ed3ffb4c766756ff199b9ceca95a087f90797f71a"
+    },
+    {
+      "file": "website/article-parking.html",
+      "status": "modified",
+      "sha256": "04a2aea9e3e1e4489563d202277f424338146bb8244a37cc766b12e60ec9a7c1",
+      "baseline_sha256": "1cf2809711b7dc4288bb2212e01cbbf69b7ccc27cf447c8f7a463559c00de746"
+    },
+    {
+      "file": "website/article-property.html",
+      "status": "modified",
+      "sha256": "1c09e4fb39c5303162e8f591e436fc3755d528b1abf01cded9925fa9584b599c",
+      "baseline_sha256": "eef6dc3626d62bb5e5268041cad1d071935a24c2100472e7d1f4d9ca7560b88d"
+    },
+    {
+      "file": "website/article-rental-return.html",
+      "status": "modified",
+      "sha256": "0de4f10cd25e571332dc02809e3f29be9216d2eeeb1965c36e4986c722a3e041",
+      "baseline_sha256": "63eb1397b17257c6407d18c4cec961a57585f7e4288961fe0959135d328e8e90"
+    },
+    {
+      "file": "website/article-risk.html",
+      "status": "modified",
+      "sha256": "b0c6bcad9281bf30a39cdae7e2739fb5dc5714ed67c059b3a275e92b2643d60a",
+      "baseline_sha256": "594cfb29eca4c068892cc5bfbb5913c65702e900d370191591c33a382e700977"
+    },
+    {
+      "file": "website/article-secrets.html",
+      "status": "modified",
+      "sha256": "3b0f32e2a5394b8576e48659608cbfdb321638384c83896fe91d62d8c75dc45e",
+      "baseline_sha256": "89b657c8e40ab1d6e2f05c34aecdf63a7ee79cd954751adf25d87b2c7f513e65"
+    },
+    {
+      "file": "website/article-shared-use.html",
+      "status": "modified",
+      "sha256": "e6462da3f1bce76e23e7eb1eca342b4d39a69c00aa8e10cebc95219026e63f63",
+      "baseline_sha256": "6b1e21c6c94fd4f3c3e0c3f080ff73f66a2b455ccb3cf8190aba216e5f0d620c"
+    },
+    {
+      "file": "website/article-shareholder.html",
+      "status": "modified",
+      "sha256": "aa7400a0f28333a1fc820da22acd4491456b727c228941a9c729affa6c7edc42",
+      "baseline_sha256": "3b8a63a941fc7c282903ae0fafbf23f01ff0acbcde3cf66f7cafa25a9532d629"
+    },
+    {
+      "file": "website/article-support-enforcement.html",
+      "status": "modified",
+      "sha256": "05766890f4a6ce81e9f128b6fb2b577d8be249827329158183a6ddba3c513edf",
+      "baseline_sha256": "9fc1a141bdd73726b3de6230a5f88cd57877e8474eb9447b39e839b0cc68713b"
+    },
+    {
+      "file": "website/article-technology.html",
+      "status": "modified",
+      "sha256": "e481ada0257421c15adbd154b726d80c598164ce725838810032f0b2e6e1a310",
+      "baseline_sha256": "364507e615d48f22e464f90229edbda4ab4844bab13268bf55e3e952d076ceae"
+    },
+    {
+      "file": "website/article-transaction.html",
+      "status": "modified",
+      "sha256": "522f6f1160f8cafbab5b4402556e03fa6d696fff0236ba3153eee69929d3042b",
+      "baseline_sha256": "69386365d778c74547f6d01fa9a422faef0122bcf18b1a1e817f711cead5e64d"
+    },
+    {
+      "file": "website/article-visitation.html",
+      "status": "modified",
+      "sha256": "a004853947329f624829c7a1fa62211a3b833550c54e317f1539d5178bf5725e",
+      "baseline_sha256": "e817fa68fdaf46b13efb8779735545d685abf1d959bd604815096f0773f41aa6"
+    },
+    {
+      "file": "website/article-will-reserved-share.html",
+      "status": "modified",
+      "sha256": "2b66928a75f3f4856c85f8d04468e4b99c2be8b8813c2eca9c3683ca856075cd",
+      "baseline_sha256": "daee0b689a3cff5ce4fa0546dbcdfddef3efb22737baaffc52bec8fa48c993c9"
+    },
+    {
+      "file": "website/article.html",
+      "status": "modified",
+      "sha256": "970b6aab67ac952ba786cf76413f4a5237034f26baa001b63e0c34a0c713757d",
+      "baseline_sha256": "40ea3e9dafa89b7b17f741c186c061cb05e088cd3284f9525d479245be4fdd62"
+    },
+    {
+      "file": "website/assets/css/seo-v52.css",
+      "status": "added",
+      "sha256": "8d1e0b203f23d4b715c967ed7dbc1576f2f82e9b4dc07d4261733cb02b3ff5ba",
+      "baseline_sha256": null
+    },
+    {
+      "file": "website/assets/js/events.js",
+      "status": "modified",
+      "sha256": "4b1938e31974f87eecc573d458c2afbddfcda40447f90d1c3f59c5376d776cff",
+      "baseline_sha256": "a4c791d062d0c84200a3ca18703c4fa7a957566d1213eefd71981cf7e0ef0980"
+    },
+    {
+      "file": "website/assets/js/insights-plus.js",
+      "status": "modified",
+      "sha256": "b1e5b3d98e65a5dd18dc432686f17b7be3b3340ac388246bf28451d614645217",
+      "baseline_sha256": "a8c3b4813ea37d8b970e50bb495324cc8cc11446db60a7069f6dec0c7bda4a9b"
+    },
+    {
+      "file": "website/assets/js/search-index.js",
+      "status": "modified",
+      "sha256": "41fb0146422feedcd80f66e2014363836203539c6bc8487044faf97c30023539",
+      "baseline_sha256": "0bad4b81cd31eb86716f4d133ec55ef8fdcf0e48e6de7fb30390a09c1f02ee3a"
+    },
+    {
+      "file": "website/cheng-tien-hao.html",
+      "status": "modified",
+      "sha256": "6285dd6ff788ccbe3e932b6547be61b877d03c1db7d3b318a29f785b2e609a55",
+      "baseline_sha256": "a58abe62bfa1955514217f1b321ff204459cf66d218a05c41dcc96ab1040f776"
+    },
+    {
+      "file": "website/consultation.html",
+      "status": "modified",
+      "sha256": "276ee70ca3aae894e5e8f8b39bc1509dc05b2301c6c875ac35b1657b4fc2ec69",
+      "baseline_sha256": "e873959a8f3e7a37da0331ef4a65202ef625947672853e5bc6aed91f4481d826"
+    },
+    {
+      "file": "website/contact.html",
+      "status": "modified",
+      "sha256": "ae537d0d20ac7202e7b14f6b3dff59eadc35234e197ebcebc76e2f9568c0126c",
+      "baseline_sha256": "86f53742fd0217996a6b17ad1e8ffb35fb0fe11230951ecfdcd9d4d1a5caa20e"
+    },
+    {
+      "file": "website/corporate.html",
+      "status": "modified",
+      "sha256": "ba97aa1f678ef66841ab121eb101a4596f748c2333f9fb93c6b9078a9c32c458",
+      "baseline_sha256": "d536d5ddd8a0418134749556180008dfd7a331a5c69e83c344975b8cfd9445c9"
+    },
+    {
+      "file": "website/criminal.html",
+      "status": "modified",
+      "sha256": "f78e1787890dd43cc5ac80004f333de309ce1768d59f6f557ed3c169b9b45fd3",
+      "baseline_sha256": "3c88f58a3a0c874bb6515162ae7c19843df2d0ae342fbf51e458815f6bbe83b9"
+    },
+    {
+      "file": "website/cross-border.html",
+      "status": "modified",
+      "sha256": "94e807aa067d2cf2996e9329a0984a22a11c21dfbd0ad8f17b872ed7a4c11e57",
+      "baseline_sha256": "a2cf92ee28a29d5412e632586c9c48631753d87289fbb89a077147af8041f031"
+    },
+    {
+      "file": "website/disclaimer.html",
+      "status": "modified",
+      "sha256": "b171ef4f056d382fd6c8bf82e447a135c95bac83a0dd393f97180307bb66a3fe",
+      "baseline_sha256": "b0e21c6b20f59038fc22be2732dc9d5b1e858e88d7c1409e71c29e3bf2f1a87c"
+    },
+    {
+      "file": "website/disputes.html",
+      "status": "modified",
+      "sha256": "f8847cd0cb9925c92949a39e7217b3572aba5d47913b508ca0290092e929c191",
+      "baseline_sha256": "3818a8eee7c140f8dfae576fff17a3663eebb264f7644df3cf502700c73c7f61"
+    },
+    {
+      "file": "website/employment.html",
+      "status": "modified",
+      "sha256": "70d6b2ff2725092de786191fe08d5bf49ce99bc3ff669ce824d3585ecbf7113d",
+      "baseline_sha256": "cedf65752b0ef8a3441e1f827f938d1dabbabf3fabfbdb75c03291c128d35af0"
+    },
+    {
+      "file": "website/expertise.html",
+      "status": "modified",
+      "sha256": "f357c8c64f18b8b06068d8c6610f655323c8e21a9f2d1dbf2d0e92ae21b619de",
+      "baseline_sha256": "a407b6c2788a7c166ca54b73cc370be7dbaff902e7a4616bf5c23d79fad2920e"
+    },
+    {
+      "file": "website/family-wealth.html",
+      "status": "modified",
+      "sha256": "1c5543258885dd172b3807633d392e6bae5125df3928bf906ee50255ed6ce25c",
+      "baseline_sha256": "7cb92dfc061ac6ab54b939f0b8924e81c1287e59ff06f1a202e3fe456df3105c"
+    },
+    {
+      "file": "website/global-reach.html",
+      "status": "modified",
+      "sha256": "c11cc82b3f45122f361f025a3fc6db4ba642ead88f276bbb32d1066f2c6db951",
+      "baseline_sha256": "1955a1b7457c02021733c07d251cab7e348a8421e07699760670f6e996b5144c"
+    },
+    {
+      "file": "website/index.html",
+      "status": "modified",
+      "sha256": "a2d0961a0e4bdbe2900d8a493c8b9ded31767cf98f26a8bbffa9bfba8955e065",
+      "baseline_sha256": "7813ccdb1fd8cda657187179889a83ba6bb3b355bfbf4c18ae974f0b8a5aa916"
+    },
+    {
+      "file": "website/insights-2.html",
+      "status": "modified",
+      "sha256": "6c0d9e71000ddb9cffdd10e5e2ac65046f31283ffef4d552405687cb86a77ad6",
+      "baseline_sha256": "ba7e1acddfd3cd8411dfb1b0c1e55585135686cadc7a8e1f28b80d4851ddd0ae"
+    },
+    {
+      "file": "website/insights-3.html",
+      "status": "modified",
+      "sha256": "a8c5f70a2fa96a359901c2dcea797e3d9b7e581418dbdeca7e7f39239cc8e983",
+      "baseline_sha256": "e478d03526626cb03434cdd8eed785adccb0425861b426ceb8aca97eb9f88ff3"
+    },
+    {
+      "file": "website/insights-4.html",
+      "status": "modified",
+      "sha256": "fd2b05017a51474bd2a4b31a6226f15f8b2b8258d5e7004025d5040f82fc9ef2",
+      "baseline_sha256": "107c386be1a40e07a05d39879dba6a0c0f37ea320c19cb79dacbc2549480289c"
+    },
+    {
+      "file": "website/insights-category.html",
+      "status": "modified",
+      "sha256": "61d0808a62a5ad156fac20100394ce84884caf4f06f85a2cc9cc011ef12dd4a5",
+      "baseline_sha256": "c267b49ab91de16c71eb976c97edc083be002e94efc334d4a472671d1bd66fb8"
+    },
+    {
+      "file": "website/insights.html",
+      "status": "modified",
+      "sha256": "7ba073a86a74370da97b99e0cf659d2f08485c28945c357e7e11450c77e708a8",
+      "baseline_sha256": "d9bf98c780aba576a7324d4a4104fadb3f3d673a39ca52c88a3c2d9bb807752f"
+    },
+    {
+      "file": "website/ip-technology.html",
+      "status": "modified",
+      "sha256": "452eca04f51aa1bde1db4055aeaad0e58e8be4d2b31776a661ef646e96b1ff4a",
+      "baseline_sha256": "9296d77372176dd77599efa74a2423680a84b5554ea8df7d0b4241f850662fb3"
+    },
+    {
+      "file": "website/lawai.html",
+      "status": "modified",
+      "sha256": "f5f4f729a78e4e02f4d6159b899dbafc61b06283f594bc2304cee2c720458882",
+      "baseline_sha256": "1d0b195b9cd0aa741f11ea3594827abb4b06c11f8c208f41fdc04c08968ac341"
+    },
+    {
+      "file": "website/li-hsin-ting.html",
+      "status": "modified",
+      "sha256": "eb79c2efe86a8ca3edaf2a5243a08e66e847483aade6032b7f40f60003f435bd",
+      "baseline_sha256": "2097857e1bea4539f4c9998e705ca4fcf7e911ba2a7007296322cf1b97a4b30e"
+    },
+    {
+      "file": "website/liu-tien-hsi.html",
+      "status": "modified",
+      "sha256": "04d4f8680dd53c2c0f63b3177e2582305386be6133fb6623843fa765a06f7e14",
+      "baseline_sha256": "80f01b749325955596ef28d0c586f96723c539c68af0b00d2c55b2c4cd5c5364"
+    },
+    {
+      "file": "website/people.html",
+      "status": "modified",
+      "sha256": "07ac857b8cd887f8a5113a5bcfc6b080d39d6aa720c56139b3e2024243951fa1",
+      "baseline_sha256": "cc5e4608d0ae9fb4405ea4c487bf613a8d09fd5c550e547632f23b414cf97431"
+    },
+    {
+      "file": "website/philosophy.html",
+      "status": "modified",
+      "sha256": "8175cf54beea622322690eba1b7bca00a05edef1e95765312a597f16a480f389",
+      "baseline_sha256": "0c4d2514055447be0c8e0c65496992e0bf15ae420b129db8df17e752f6479d74"
+    },
+    {
+      "file": "website/privacy.html",
+      "status": "modified",
+      "sha256": "74e4c55def7b3ba09016bb9700ca2b01e692c73728518f9ae10f5ceff143ca85",
+      "baseline_sha256": "67a83cc00eea5c3d3c0a28d054160bfb8b9fbb8ab5e827a1bbabce5b2d7ef92e"
+    },
+    {
+      "file": "website/real-estate.html",
+      "status": "modified",
+      "sha256": "93fc936af7e44e626b653a57a0cb7ed4869967cebe4b915753180b8904282098",
+      "baseline_sha256": "9bb80878026147091a71163bfeb02a62b8a160dab36eefeb3f3f9113c91f0ca1"
+    },
+    {
+      "file": "website/search.html",
+      "status": "modified",
+      "sha256": "f409e5b3915c1d611cf5745d9bdcd4bf47618bcb4e65cb62a8a8904bac0c3251",
+      "baseline_sha256": "fd1281ed031247db190b32c0c6c6390fd44f021cffb1385f9322336aaa742eb5"
+    },
+    {
+      "file": "website/site-map.json",
+      "status": "modified",
+      "sha256": "9340e218460ac2c783580673d9398c8fed05ce3eaa8d581ed56740cb744d48b3",
+      "baseline_sha256": "cca6a26d50f6af5f022e8459d30e0887a08a50bb085814bfdbaebef235675e62"
+    },
+    {
+      "file": "website/sitemap.xml",
+      "status": "modified",
+      "sha256": "39c0c1c11029e8d111a6b00870118e87454297e09c3af2c11fb313df0edfbaad",
+      "baseline_sha256": "a4dabc0ff038dab1f8c6669120d5024fc592f33bb4cb8428af38f4c0f3cda0f0"
+    },
+    {
+      "file": "website/terms.html",
+      "status": "modified",
+      "sha256": "095c5392761a2c20f3de0b30b31f28f4837ccbec2b8ffeb881af005f421ab6fc",
+      "baseline_sha256": "1b0fff6c787f8e8c29db3c60c479445b37c8452a3858b233a977b94ae29117b4"
+    },
+    {
+      "file": "website/thank-you.html",
+      "status": "modified",
+      "sha256": "0a72411eb1773a140fdd30124e819caa10727d0ca8621401f5c18fd063508273",
+      "baseline_sha256": "89b23545f0a174808dc97c00acf76f166438f27537dd9dae716d0477e6b53b3e"
+    }
+  ]
+}

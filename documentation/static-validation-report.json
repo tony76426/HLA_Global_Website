@@ -1,0 +1,119 @@
+{
+  "version": "5.2",
+  "source": "HLA_Global_SEO_V5.1_Website.zip",
+  "html_pages": 64,
+  "articles": 32,
+  "services": 8,
+  "indexable_urls": 57,
+  "checks": [
+    {
+      "check": "HTML filenames retained",
+      "passed": true,
+      "detail": "64"
+    },
+    {
+      "check": "V5.1 primary stylesheet preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All original image and font bytes preserved",
+      "passed": true,
+      "detail": "298 assets"
+    },
+    {
+      "check": "Brand headline preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All local href/src targets exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All in-page and cross-page fragments resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Metadata, H1, canonical and ID consistency",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Unique titles on 64 HTML pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique descriptions on 64 HTML pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image dimensions and srcsets retained and present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All JSON-LD blocks parse with unique entity IDs",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "32 original article bodies, authors and sources preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "32 articles have primary/secondary service return paths in both directions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Eight Service entities correspond to visible H1 and provider",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "NAP, opening hours, map, telephone and office image consistent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sitemap contains exactly all 57 indexable URLs",
+      "passed": true,
+      "detail": "57"
+    },
+    {
+      "check": "Legacy category utility excluded from index",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Four static pages expose all 32 articles without JavaScript",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Each collection ItemList matches its eight visible cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "No generated internal category query URLs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every indexable page reachable through real links",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "passed": 21,
+  "failed": 0,
+  "browser_rendering": "not_run: managed environment has no control-browser capability; no visual layout claim",
+  "external_accounts": "Google Business Profile, Search Console and live GA4 configuration not accessed"
+}
