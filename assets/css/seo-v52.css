@@ -27,3 +27,148 @@
 #office-access,#related-insights,#criminal-notice{scroll-margin-top:150px}
 @media(max-width:1000px){.seo-access-grid{grid-template-columns:1fr;gap:24px}}
 @media(max-width:720px){.seo-service-brief-grid{grid-template-columns:1fr;gap:26px}.seo-service-brief-grid h3,.seo-access-grid h3{font-size:1.12rem}.seo-article-route{display:grid;gap:12px;font-size:.9rem}.seo-category-guide{padding:18px 20px}.seo-local-copy{font-size:.9rem}.article-related-practice a{flex-direction:column;align-items:flex-start;gap:6px}}
+/* HLA unified ornamental editorial panels — 2026-11-16 */
+/*
+ * Replace the old beige box + thick left stripe across the whole site.
+ * All decoration stays on the outer perimeter; reserved padding separates
+ * headings, paragraphs and links from every decorative line/corner.
+ * Navigation rails, progress indicators and flow connectors are not callouts.
+ */
+:is(.article-callout, .article-related-practice, .method-panel,
+    .stage-detail, .privacy-mini, .practice-alert, .seo-category-guide,
+    [data-page="P20"] .global-framework-intro) {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+  border: 1.5px solid transparent;
+  border-radius: 7px;
+  background:
+    linear-gradient(137deg, #fffcf8 0%, #f6efe7 58%, #fffaf6 100%) padding-box,
+    linear-gradient(112deg, #781d2a 0%, #b98b4c 26%, #d9ba80 51%, #75202c 100%) border-box;
+  box-shadow:
+    0 12px 30px rgba(64, 29, 32, .085),
+    inset 0 0 0 9px rgba(255, 255, 255, .58),
+    inset 0 0 0 10px rgba(172, 118, 62, .19);
+  padding: clamp(49px, 4vw, 60px) clamp(25px, 4vw, 52px) clamp(48px, 4vw, 56px);
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+/* Top-left burgundy/gold corner and bottom-right matching corner.
+ * They are confined to the empty padding bands, never the text region. */
+:is(.article-callout, .article-related-practice, .method-panel,
+    .privacy-mini, .practice-alert, .seo-category-guide,
+    [data-page="P20"] .global-framework-intro)::before,
+:is(.article-callout, .article-related-practice, .method-panel,
+    .stage-detail, .privacy-mini, .practice-alert, .seo-category-guide,
+    [data-page="P20"] .global-framework-intro)::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 134px;
+  height: 27px;
+  pointer-events: none;
+  z-index: 0;
+}
+:is(.article-callout, .article-related-practice, .method-panel,
+    .privacy-mini, .practice-alert, .seo-category-guide,
+    [data-page="P20"] .global-framework-intro)::before {
+  left: 0;
+  top: 0;
+  background: linear-gradient(111deg,
+    #7f1520 0 66%, #fffaf6 66% 71%, #b7883e 71% 84%, transparent 84%);
+  clip-path: polygon(16% 0, 100% 0, 77% 100%, 0 100%);
+}
+:is(.article-callout, .article-related-practice, .method-panel,
+    .stage-detail, .privacy-mini, .practice-alert, .seo-category-guide,
+    [data-page="P20"] .global-framework-intro)::after {
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(111deg,
+    transparent 0 16%, #b7883e 16% 29%, #fffaf6 29% 34%, #7f1520 34% 100%);
+  clip-path: polygon(23% 0, 100% 0, 84% 100%, 0 100%);
+}
+
+/* The tab-content component already owns ::before as a live progress meter.
+ * Retain that function, position it within clear top padding, and never draw
+ * a competing corner across the meter or text. */
+.stage-detail {
+  padding-top: 60px;
+}
+.stage-detail::before {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 38px;
+  height: 3px;
+  width: var(--stage-progress, 20%);
+  max-width: calc(100% - 76px);
+  border-radius: 99px;
+  background: linear-gradient(90deg, #8c2631, #b98b4c);
+}
+
+/* Compact notices need a smaller silhouette without losing safe insets. */
+:is(.privacy-mini, .practice-alert, .seo-category-guide) {
+  padding: 42px 28px 43px;
+  line-height: 1.78;
+}
+.privacy-mini { font-size: .95rem; }
+.practice-alert p { font-size: 1rem; line-height: 1.76; }
+.article-callout b { display: block; font-size: 1.125rem; line-height: 1.55; }
+.article-callout p { font-size: 1.0625rem; line-height: 1.83; margin: 12px 0 0; }
+.article-related-practice > p { line-height: 1.85; }
+.article-related-practice a { position: relative; }
+[data-page="P20"] .global-framework-intro { min-height: 220px; }
+[data-page="P20"] .global-framework-intro p { max-width: 45ch; }
+
+/* These are narrow text dividers, not cards. Remove their old left accent,
+ * rather than wrapping editorial prose in unnecessarily heavy artwork. */
+.global-editorial-note p,
+.practice-heading-plus .practice-context-plus,
+.home-connect-content {
+  border-left: 0;
+  border-inline-start: 0;
+  padding-left: 0;
+  padding-inline-start: 0;
+}
+.global-editorial-note p { border-top: 1px solid #dcc6ad; padding-top: 20px; }
+.practice-heading-plus .practice-context-plus { border-top: 1px solid #dcc6ad; padding-top: 15px; }
+.home-connect-content { border-top: 1px solid #dcc6ad; padding-top: 24px; }
+
+/* Tiny steps in the AI workflow are not suitable for large corner motifs. */
+.lawai-document-map li,
+.lawai-document-map li:nth-child(2n) {
+  border-left: 1px solid #d8bc9c;
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .5);
+}
+.lawai-document-map li:nth-child(2n) { border-color: #c8a6a8; }
+
+@media (max-width: 720px) {
+  :is(.article-callout, .article-related-practice, .method-panel,
+      .stage-detail, .privacy-mini, .practice-alert, .seo-category-guide,
+      [data-page="P20"] .global-framework-intro) {
+    padding: 40px 22px 43px;
+    box-shadow:
+      0 8px 22px rgba(64, 29, 32, .07),
+      inset 0 0 0 6px rgba(255, 255, 255, .6),
+      inset 0 0 0 7px rgba(172, 118, 62, .17);
+  }
+  :is(.article-callout, .article-related-practice, .method-panel,
+      .privacy-mini, .practice-alert, .seo-category-guide,
+      [data-page="P20"] .global-framework-intro)::before,
+  :is(.article-callout, .article-related-practice, .method-panel,
+      .stage-detail, .privacy-mini, .practice-alert, .seo-category-guide,
+      [data-page="P20"] .global-framework-intro)::after {
+    width: 89px;
+    height: 20px;
+  }
+  .stage-detail { padding-top: 53px; }
+  .stage-detail::before {
+    top: 28px;
+    left: 22px;
+    max-width: calc(100% - 44px);
+  }
+  .global-editorial-note p { padding-top: 15px; }
+  .home-connect-content { border-top: 0; padding-top: 0; }
+}
