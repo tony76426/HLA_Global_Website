@@ -1,0 +1,64 @@
+/* 2026-11-16: Readable introductions for the attorney team and eight practice pages.
+   Scope intentionally excludes navigation, article pages, headings and small labels. */
+
+.team-intro {
+  max-width: 900px;
+  padding-top: 36px;
+  padding-bottom: 14px;
+}
+.team-intro > p {
+  max-width: 68ch;
+  font-size: clamp(1.1875rem, 1.38vw, 1.25rem);
+  line-height: 1.85;
+  letter-spacing: .008em;
+}
+
+/* Longer professional descriptions on all eight practice detail pages. */
+.practice-page .practice-official-grid > div:first-child > p {
+  max-width: 68ch;
+  font-size: clamp(1.125rem, 1.3vw, 1.1875rem);
+  line-height: 1.88;
+  letter-spacing: .008em;
+  margin-bottom: 1.2em;
+}
+.practice-page .practice-hero-copy .practice-summary {
+  font-size: 1.0625rem;
+  line-height: 1.85;
+}
+.practice-page .practice-services li {
+  font-size: 1.0625rem;
+  line-height: 1.72;
+}
+
+/* Avoid two cramped reading columns after increasing the type size. */
+@media (max-width: 1024px) {
+  .practice-page .practice-official-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 26px;
+  }
+  .practice-page .practice-services {
+    max-width: none;
+  }
+}
+@media (max-width: 720px) {
+  .team-intro {
+    padding-top: 28px;
+    padding-bottom: 12px;
+  }
+  .team-intro > p {
+    font-size: 1.09375rem;
+    line-height: 1.85;
+  }
+  .practice-page .practice-official-grid > div:first-child > p {
+    max-width: none;
+    font-size: 1.09375rem;
+    line-height: 1.88;
+  }
+  .practice-page .practice-hero-copy .practice-summary {
+    font-size: 1.0625rem;
+  }
+  .practice-page .practice-services li {
+    font-size: 1.03125rem;
+    line-height: 1.72;
+  }
+}
