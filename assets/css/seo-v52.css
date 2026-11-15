@@ -27,12 +27,10 @@
 #office-access,#related-insights,#criminal-notice{scroll-margin-top:150px}
 @media(max-width:1000px){.seo-access-grid{grid-template-columns:1fr;gap:24px}}
 @media(max-width:720px){.seo-service-brief-grid{grid-template-columns:1fr;gap:26px}.seo-service-brief-grid h3,.seo-access-grid h3{font-size:1.12rem}.seo-article-route{display:grid;gap:12px;font-size:.9rem}.seo-category-guide{padding:18px 20px}.seo-local-copy{font-size:.9rem}.article-related-practice a{flex-direction:column;align-items:flex-start;gap:6px}}
-/* HLA unified ornamental editorial panels — 2026-11-16 */
-/*
- * Replace the old beige box + thick left stripe across the whole site.
- * All decoration stays on the outer perimeter; reserved padding separates
- * headings, paragraphs and links from every decorative line/corner.
- * Navigation rails, progress indicators and flow connectors are not callouts.
+/* HLA editorial callouts — simplified two-rule design (2026-11-16).
+ * Reference: burgundy diagonal at top left, thin gold top & bottom rules,
+ * no side borders, no closed outline, and clear typographic safe zones.
+ * Lines are backgrounds anchored in the outer padding, never over text.
  */
 :is(.article-callout, .article-related-practice, .method-panel,
     .stage-detail, .privacy-mini, .practice-alert, .seo-category-guide,
@@ -40,89 +38,101 @@
   position: relative;
   isolation: isolate;
   min-width: 0;
-  border: 1.5px solid transparent;
-  border-radius: 7px;
-  background:
-    linear-gradient(137deg, #fffcf8 0%, #f6efe7 58%, #fffaf6 100%) padding-box,
-    linear-gradient(112deg, #781d2a 0%, #b98b4c 26%, #d9ba80 51%, #75202c 100%) border-box;
-  box-shadow:
-    0 12px 30px rgba(64, 29, 32, .085),
-    inset 0 0 0 9px rgba(255, 255, 255, .58),
-    inset 0 0 0 10px rgba(172, 118, 62, .19);
-  padding: clamp(49px, 4vw, 60px) clamp(25px, 4vw, 52px) clamp(48px, 4vw, 56px);
+  border: 0;
+  border-radius: 0;
   overflow: hidden;
+  box-shadow: none;
+  background:
+    linear-gradient(90deg, #b58a42, #b58a42) right 24px top 20px / calc(100% - 154px) 2px no-repeat,
+    linear-gradient(90deg, #b58a42, #b58a42) center bottom 20px / calc(100% - 48px) 2px no-repeat,
+    linear-gradient(138deg, #fffdfa 0%, #faf4ed 60%, #fffdfb 100%);
+  padding: 69px clamp(24px, 3.5vw, 48px) 69px;
   overflow-wrap: anywhere;
 }
 
-/* Top-left burgundy/gold corner and bottom-right matching corner.
- * They are confined to the empty padding bands, never the text region. */
+/* Only one small red slash at the top; remove the former lower-right motif.
+ * The progress panel keeps ::before for the live progress bar, so its slash
+ * uses ::after instead. Both variants are confined to the TOP padding. */
 :is(.article-callout, .article-related-practice, .method-panel,
     .privacy-mini, .practice-alert, .seo-category-guide,
     [data-page="P20"] .global-framework-intro)::before,
-:is(.article-callout, .article-related-practice, .method-panel,
-    .stage-detail, .privacy-mini, .practice-alert, .seo-category-guide,
-    [data-page="P20"] .global-framework-intro)::after {
+.stage-detail::after {
   content: "";
   position: absolute;
-  display: block;
-  width: 134px;
-  height: 27px;
+  left: 27px;
+  top: 11px;
+  width: 92px;
+  height: 20px;
+  background: #861d26;
+  clip-path: polygon(21% 0, 100% 0, 79% 100%, 0 100%);
   pointer-events: none;
   z-index: 0;
 }
+
+/* No bottom decorative pseudo-element; only the fine gold bottom rule remains. */
 :is(.article-callout, .article-related-practice, .method-panel,
     .privacy-mini, .practice-alert, .seo-category-guide,
-    [data-page="P20"] .global-framework-intro)::before {
-  left: 0;
-  top: 0;
-  background: linear-gradient(111deg,
-    #7f1520 0 66%, #fffaf6 66% 71%, #b7883e 71% 84%, transparent 84%);
-  clip-path: polygon(16% 0, 100% 0, 77% 100%, 0 100%);
-}
-:is(.article-callout, .article-related-practice, .method-panel,
-    .stage-detail, .privacy-mini, .practice-alert, .seo-category-guide,
     [data-page="P20"] .global-framework-intro)::after {
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(111deg,
-    transparent 0 16%, #b7883e 16% 29%, #fffaf6 29% 34%, #7f1520 34% 100%);
-  clip-path: polygon(23% 0, 100% 0, 84% 100%, 0 100%);
+  content: none;
 }
 
-/* The tab-content component already owns ::before as a live progress meter.
- * Retain that function, position it within clear top padding, and never draw
- * a competing corner across the meter or text. */
-.stage-detail {
-  padding-top: 60px;
+/* A short editorial gold stroke belongs AFTER a heading, not beside
+ * paragraph text: it participates in normal layout and cannot overlap it. */
+.article-callout > b,
+.practice-alert > strong { display: block; }
+.article-callout > b::after,
+.article-related-practice > h2::after,
+.method-panel > h2::after,
+.stage-detail > h3::after,
+.practice-alert > strong::after,
+.seo-category-guide > strong::after {
+  content: "";
+  display: block;
+  width: 92px;
+  height: 3px;
+  margin: 16px 0 0;
+  background: linear-gradient(90deg, #a97829 0%, #d6b777 72%, transparent 100%);
 }
+
+/* Preserve tab progression: this ::before belongs to its actual progress
+ * indicator, not to the top-left ornament. Its position is separate from
+ * the first line of text, and the moving width is bounded to the card. */
 .stage-detail::before {
   content: "";
+  display: block;
   position: absolute;
-  top: 32px;
-  left: 38px;
+  top: 44px;
+  left: 36px;
   height: 3px;
   width: var(--stage-progress, 20%);
-  max-width: calc(100% - 76px);
-  border-radius: 99px;
-  background: linear-gradient(90deg, #8c2631, #b98b4c);
+  max-width: calc(100% - 72px);
+  border-radius: 50px;
+  background: linear-gradient(90deg, #992f35, #c5a05a);
 }
 
-/* Compact notices need a smaller silhouette without losing safe insets. */
-:is(.privacy-mini, .practice-alert, .seo-category-guide) {
-  padding: 42px 28px 43px;
-  line-height: 1.78;
-}
-.privacy-mini { font-size: .95rem; }
-.practice-alert p { font-size: 1rem; line-height: 1.76; }
-.article-callout b { display: block; font-size: 1.125rem; line-height: 1.55; }
-.article-callout p { font-size: 1.0625rem; line-height: 1.83; margin: 12px 0 0; }
+/* Retain existing service links / functionality and sensible copy sizes. */
+.article-callout > b { color: var(--wine); font-size: 1.125rem; line-height: 1.58; }
+.article-callout > p { font-size: 1.0625rem; line-height: 1.83; margin: 15px 0 0; }
 .article-related-practice > p { line-height: 1.85; }
-.article-related-practice a { position: relative; }
-[data-page="P20"] .global-framework-intro { min-height: 220px; }
-[data-page="P20"] .global-framework-intro p { max-width: 45ch; }
+.article-related-practice > a { position: relative; }
+.privacy-mini { font-size: .95rem; line-height: 1.8; }
+.practice-alert > p { font-size: 1rem; line-height: 1.76; }
+.seo-category-guide { line-height: 1.86; }
 
-/* These are narrow text dividers, not cards. Remove their old left accent,
- * rather than wrapping editorial prose in unnecessarily heavy artwork. */
+/* Smaller note blocks still reserve clear top and bottom lines. */
+:is(.privacy-mini, .practice-alert, .seo-category-guide) {
+  padding: 56px 27px 61px;
+}
+[data-page="P20"] .global-framework-intro {
+  min-height: 220px;
+}
+[data-page="P20"] .global-framework-intro p {
+  max-width: 45ch;
+}
+[data-page="P20"] .global-frame-rule { display: none; }
+
+/* Other editorial side rules are replaced by an ordinary thin top
+ * separator; they were never meant to be full framed callouts. */
 .global-editorial-note p,
 .practice-heading-plus .practice-context-plus,
 .home-connect-content {
@@ -131,16 +141,26 @@
   padding-left: 0;
   padding-inline-start: 0;
 }
-.global-editorial-note p { border-top: 1px solid #dcc6ad; padding-top: 20px; }
-.practice-heading-plus .practice-context-plus { border-top: 1px solid #dcc6ad; padding-top: 15px; }
-.home-connect-content { border-top: 1px solid #dcc6ad; padding-top: 24px; }
+.global-editorial-note p {
+  border-top: 1px solid #dcc6ad;
+  padding-top: 20px;
+}
+.practice-heading-plus .practice-context-plus {
+  border-top: 1px solid #dcc6ad;
+  padding-top: 15px;
+}
+.home-connect-content {
+  border-top: 1px solid #dcc6ad;
+  padding-top: 24px;
+}
 
-/* Tiny steps in the AI workflow are not suitable for large corner motifs. */
+/* Mini workflow steps are not large editorial panels. Their simple
+ * one-pixel outlines replace the former left-only accents. */
 .lawai-document-map li,
 .lawai-document-map li:nth-child(2n) {
   border: 1px solid #d8bc9c;
   border-radius: 6px;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .5);
+  box-shadow: none;
 }
 .lawai-document-map li:nth-child(2n) { border-color: #c8a6a8; }
 
@@ -148,26 +168,34 @@
   :is(.article-callout, .article-related-practice, .method-panel,
       .stage-detail, .privacy-mini, .practice-alert, .seo-category-guide,
       [data-page="P20"] .global-framework-intro) {
-    padding: 40px 22px 43px;
-    box-shadow:
-      0 8px 22px rgba(64, 29, 32, .07),
-      inset 0 0 0 6px rgba(255, 255, 255, .6),
-      inset 0 0 0 7px rgba(172, 118, 62, .17);
+    background:
+      linear-gradient(90deg, #b58a42, #b58a42) right 18px top 17px / calc(100% - 121px) 2px no-repeat,
+      linear-gradient(90deg, #b58a42, #b58a42) center bottom 16px / calc(100% - 36px) 2px no-repeat,
+      linear-gradient(138deg, #fffdfa 0%, #faf4ed 60%, #fffdfb 100%);
+    padding: 54px 21px 58px;
   }
   :is(.article-callout, .article-related-practice, .method-panel,
       .privacy-mini, .practice-alert, .seo-category-guide,
       [data-page="P20"] .global-framework-intro)::before,
-  :is(.article-callout, .article-related-practice, .method-panel,
-      .stage-detail, .privacy-mini, .practice-alert, .seo-category-guide,
-      [data-page="P20"] .global-framework-intro)::after {
-    width: 89px;
-    height: 20px;
+  .stage-detail::after {
+    left: 20px;
+    top: 9px;
+    width: 70px;
+    height: 17px;
   }
-  .stage-detail { padding-top: 53px; }
   .stage-detail::before {
-    top: 28px;
-    left: 22px;
-    max-width: calc(100% - 44px);
+    top: 38px;
+    left: 21px;
+    max-width: calc(100% - 42px);
+  }
+  .article-callout > b::after,
+  .article-related-practice > h2::after,
+  .method-panel > h2::after,
+  .stage-detail > h3::after,
+  .practice-alert > strong::after,
+  .seo-category-guide > strong::after {
+    width: 74px;
+    margin-top: 13px;
   }
   .global-editorial-note p { padding-top: 15px; }
   .home-connect-content { border-top: 0; padding-top: 0; }
