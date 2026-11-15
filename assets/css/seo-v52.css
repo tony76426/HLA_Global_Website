@@ -200,3 +200,21 @@
   .global-editorial-note p { padding-top: 15px; }
   .home-connect-content { border-top: 0; padding-top: 0; }
 }
+/* Brand philosophy desktop editorial proportions — 2026-11-16 */
+@media (min-width: 1025px) {
+  body[data-page="P02"] .values-editorial .value-row {
+    grid-template-columns: 112px minmax(200px, .8fr) minmax(0, 1.4fr);
+    column-gap: clamp(22px, 2.3vw, 34px);
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  body[data-page="P02"] .values-editorial .value-row > p {
+    max-width: 39em;
+    min-width: 0;
+    font-size: clamp(1.1875rem, 1.35vw, 1.3125rem);
+    line-height: 1.72;
+    letter-spacing: 0;
+    margin-block: 0;
+    overflow-wrap: break-word;
+  }
+}
