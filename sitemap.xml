@@ -1,231 +1,1284 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.hlaglobal.com.tw/about.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/about.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/about.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/about.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/approach.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/approach.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/approach.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/approach.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/approach.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/approach.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/approach.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/approach.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/approach.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/approach.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/approach.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/approach.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/approach.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/approach.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/approach.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-ai-rights.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-ai-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-ai-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-ai-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-ai-rights.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-ai-rights.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-ai-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-ai-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-ai-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-ai-rights.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-ai-rights.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-ai-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-ai-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-ai-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-ai-rights.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-child-support.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-child-support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-child-support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-child-support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-child-support.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-child-support.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-child-support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-child-support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-child-support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-child-support.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-child-support.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-child-support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-child-support.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-child-support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-child-support.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-childcare.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-childcare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-childcare.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-childcare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-childcare.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-childcare.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-childcare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-childcare.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-childcare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-childcare.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-childcare.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-childcare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-childcare.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-childcare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-childcare.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-coowner-sale.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-coowner-sale.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-coowner-sale.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-coowner-sale.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-coowner-sale.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-coowner-sale.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-coowner-sale.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-coowner-sale.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-coowner-sale.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-coowner-sale.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-coowner-sale.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-coowner-sale.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-coowner-sale.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-coowner-sale.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-coowner-sale.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-criminal-rights.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-criminal-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-criminal-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-criminal-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-criminal-rights.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-criminal-rights.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-criminal-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-criminal-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-criminal-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-criminal-rights.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-criminal-rights.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-criminal-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-criminal-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-criminal-rights.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-criminal-rights.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-custody.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-custody.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-custody.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-custody.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-custody.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-custody.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-custody.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-custody.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-custody.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-custody.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-custody.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-custody.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-custody.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-custody.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-custody.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-divorce-options.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-divorce-options.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-divorce-options.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-divorce-options.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-divorce-options.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-divorce-options.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-divorce-options.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-divorce-options.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-divorce-options.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-divorce-options.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-divorce-options.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-divorce-options.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-divorce-options.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-divorce-options.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-divorce-options.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-divorce-property.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-divorce-property.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-divorce-property.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-divorce-property.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-divorce-property.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-divorce-property.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-divorce-property.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-divorce-property.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-divorce-property.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-divorce-property.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-divorce-property.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-divorce-property.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-divorce-property.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-divorce-property.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-divorce-property.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-employment.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-employment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-employment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-employment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-employment.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-employment.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-employment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-employment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-employment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-employment.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-employment.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-employment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-employment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-employment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-employment.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-estate-division.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-estate-division.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-estate-division.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-estate-division.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-estate-division.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-estate-division.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-estate-division.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-estate-division.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-estate-division.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-estate-division.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-estate-division.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-estate-division.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-estate-division.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-estate-division.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-estate-division.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-evidence.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-evidence.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-evidence.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-evidence.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-evidence.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-evidence.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-governance.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-governance.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-governance.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-governance.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-governance.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-governance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-governance.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-inheritance-debt.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-inheritance-debt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-inheritance-debt.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-inheritance-debt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-inheritance-debt.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-inheritance-debt.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-inheritance-debt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-inheritance-debt.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-inheritance-debt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-inheritance-debt.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-inheritance-debt.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-inheritance-debt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-inheritance-debt.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-inheritance-debt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-inheritance-debt.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-inheritance-registration.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-inheritance-registration.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-inheritance-registration.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-inheritance-registration.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-inheritance-registration.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-inheritance-registration.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-inheritance-registration.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-inheritance-registration.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-inheritance-registration.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-inheritance-registration.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-inheritance-registration.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-inheritance-registration.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-inheritance-registration.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-inheritance-registration.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-inheritance-registration.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-inheritance.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-inheritance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-inheritance.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-inheritance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-inheritance.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-inheritance.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-inheritance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-inheritance.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-inheritance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-inheritance.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-inheritance.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-inheritance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-inheritance.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-inheritance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-inheritance.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-investigation.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-investigation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-investigation.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-investigation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-investigation.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-investigation.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-investigation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-investigation.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-investigation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-investigation.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-investigation.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-investigation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-investigation.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-investigation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-investigation.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-jurisdiction.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-jurisdiction.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-jurisdiction.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-jurisdiction.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-jurisdiction.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-jurisdiction.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-jurisdiction.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-jurisdiction.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-jurisdiction.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-jurisdiction.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-jurisdiction.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-jurisdiction.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-jurisdiction.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-jurisdiction.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-jurisdiction.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-land-partition.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-land-partition.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-land-partition.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-land-partition.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-land-partition.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-land-partition.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-land-partition.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-land-partition.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-land-partition.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-land-partition.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-land-partition.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-land-partition.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-land-partition.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-land-partition.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-land-partition.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-online-fraud.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-online-fraud.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-online-fraud.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-online-fraud.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-online-fraud.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-online-fraud.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-online-fraud.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-online-fraud.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-online-fraud.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-online-fraud.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-online-fraud.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-online-fraud.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-online-fraud.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-online-fraud.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-online-fraud.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-parking.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-parking.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-parking.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-parking.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-parking.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-parking.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-parking.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-parking.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-parking.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-parking.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-parking.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-parking.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-parking.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-parking.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-parking.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-property.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-property.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-property.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-property.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-property.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-property.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-property.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-property.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-property.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-property.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-property.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-property.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-property.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-property.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-property.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-rental-return.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-rental-return.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-rental-return.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-rental-return.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-rental-return.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-rental-return.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-rental-return.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-rental-return.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-rental-return.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-rental-return.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-rental-return.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-rental-return.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-rental-return.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-rental-return.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-rental-return.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-risk.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-risk.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-risk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-risk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-risk.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-risk.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-risk.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-risk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-risk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-risk.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-risk.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-risk.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-risk.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-risk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-risk.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-secrets.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-secrets.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-secrets.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-secrets.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-secrets.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-secrets.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-secrets.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-secrets.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-secrets.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-secrets.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-secrets.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-secrets.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-secrets.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-secrets.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-secrets.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-shared-use.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-shared-use.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-shared-use.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-shared-use.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-shared-use.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-shared-use.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-shared-use.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-shared-use.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-shared-use.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-shared-use.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-shared-use.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-shared-use.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-shared-use.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-shared-use.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-shared-use.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-shareholder.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-shareholder.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-shareholder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-shareholder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-shareholder.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-shareholder.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-shareholder.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-shareholder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-shareholder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-shareholder.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-shareholder.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-shareholder.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-shareholder.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-shareholder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-shareholder.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-support-enforcement.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-support-enforcement.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-support-enforcement.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-support-enforcement.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-support-enforcement.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-support-enforcement.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-support-enforcement.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-support-enforcement.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-support-enforcement.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-support-enforcement.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-support-enforcement.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-support-enforcement.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-support-enforcement.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-support-enforcement.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-support-enforcement.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-technology.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-technology.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-technology.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-technology.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-technology.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-technology.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-transaction.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-transaction.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-transaction.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-transaction.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-transaction.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-transaction.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-transaction.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-transaction.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-transaction.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-transaction.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-transaction.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-transaction.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-transaction.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-transaction.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-transaction.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-visitation.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-visitation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-visitation.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-visitation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-visitation.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-visitation.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-visitation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-visitation.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-visitation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-visitation.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-visitation.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-visitation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-visitation.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-visitation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-visitation.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article-will-reserved-share.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-will-reserved-share.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-will-reserved-share.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-will-reserved-share.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-will-reserved-share.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article-will-reserved-share.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-will-reserved-share.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-will-reserved-share.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-will-reserved-share.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-will-reserved-share.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article-will-reserved-share.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article-will-reserved-share.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article-will-reserved-share.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article-will-reserved-share.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article-will-reserved-share.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/article.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/article.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/article.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/article.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/article.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/article.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/article.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/cheng-tien-hao.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/cheng-tien-hao.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/cheng-tien-hao.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/cheng-tien-hao.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/cheng-tien-hao.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/cheng-tien-hao.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/cheng-tien-hao.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/cheng-tien-hao.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/cheng-tien-hao.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/cheng-tien-hao.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/cheng-tien-hao.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/cheng-tien-hao.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/cheng-tien-hao.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/cheng-tien-hao.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/cheng-tien-hao.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/consultation.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/consultation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/consultation.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/consultation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/consultation.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/consultation.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/consultation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/consultation.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/consultation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/consultation.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/consultation.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/consultation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/consultation.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/consultation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/consultation.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/contact.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/contact.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/corporate.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/corporate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/corporate.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/corporate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/corporate.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/corporate.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/corporate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/corporate.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/corporate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/corporate.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/corporate.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/corporate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/corporate.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/corporate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/corporate.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/criminal.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/criminal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/criminal.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/criminal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/criminal.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/criminal.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/criminal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/criminal.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/criminal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/criminal.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/criminal.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/criminal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/criminal.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/criminal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/criminal.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/cross-border.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/cross-border.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/cross-border.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/cross-border.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/cross-border.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/cross-border.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/cross-border.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/cross-border.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/cross-border.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/cross-border.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/cross-border.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/cross-border.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/cross-border.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/cross-border.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/cross-border.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/disclaimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/disclaimer.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/disclaimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/disclaimer.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/disclaimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/disclaimer.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/disputes.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/disputes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/disputes.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/disputes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/disputes.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/disputes.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/disputes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/disputes.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/disputes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/disputes.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/disputes.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/disputes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/disputes.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/disputes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/disputes.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/employment.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/employment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/employment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/employment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/employment.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/employment.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/employment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/employment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/employment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/employment.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/employment.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/employment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/employment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/employment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/employment.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/expertise.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/expertise.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/expertise.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/expertise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/expertise.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/expertise.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/expertise.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/expertise.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/expertise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/expertise.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/expertise.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/expertise.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/expertise.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/expertise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/expertise.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/family-wealth.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/family-wealth.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/family-wealth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/family-wealth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/family-wealth.html"/>
   </url>
   <url>
-    <loc>https://www.hlaglobal.com.tw/global-reach.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <loc>https://www.hlaglobal.com.tw/en/family-wealth.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/family-wealth.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/family-wealth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/family-wealth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/family-wealth.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/family-wealth.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/family-wealth.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/family-wealth.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/family-wealth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/family-wealth.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/insights-2.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-2.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-2.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-2.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/insights-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-2.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-2.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-2.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/insights-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-2.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-2.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-2.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/insights-3.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-3.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-3.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-3.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/insights-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-3.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-3.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-3.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/insights-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-3.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-3.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-3.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/insights-4.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-4.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-4.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-4.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/insights-4.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-4.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-4.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-4.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/insights-4.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-4.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-4.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-4.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-4.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/insights-category.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-category.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-category.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-category.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-category.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/insights-category.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-category.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-category.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-category.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-category.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/insights-category.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights-category.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights-category.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights-category.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights-category.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/insights.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/insights.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/insights.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/insights.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/insights.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/ip-technology.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/ip-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/ip-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/ip-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/ip-technology.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/ip-technology.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/ip-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/ip-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/ip-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/ip-technology.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/ip-technology.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/ip-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/ip-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/ip-technology.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/ip-technology.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/lawai.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/lawai.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/lawai.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/lawai.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/lawai.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/lawai.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/lawai.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/lawai.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/lawai.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/lawai.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/lawai.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/lawai.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/lawai.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/lawai.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/lawai.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/li-hsin-ting.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/li-hsin-ting.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/li-hsin-ting.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/li-hsin-ting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/li-hsin-ting.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/li-hsin-ting.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/li-hsin-ting.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/li-hsin-ting.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/li-hsin-ting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/li-hsin-ting.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/li-hsin-ting.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/li-hsin-ting.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/li-hsin-ting.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/li-hsin-ting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/li-hsin-ting.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/liu-tien-hsi.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/liu-tien-hsi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/liu-tien-hsi.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/liu-tien-hsi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/liu-tien-hsi.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/liu-tien-hsi.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/liu-tien-hsi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/liu-tien-hsi.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/liu-tien-hsi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/liu-tien-hsi.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/liu-tien-hsi.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/liu-tien-hsi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/liu-tien-hsi.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/liu-tien-hsi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/liu-tien-hsi.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/people.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/people.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/people.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/people.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/people.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/people.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/people.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/people.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/people.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/people.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/people.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/people.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/people.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/people.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/people.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/philosophy.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/philosophy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/philosophy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/philosophy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/philosophy.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/philosophy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/philosophy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/philosophy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/philosophy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/philosophy.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/philosophy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/philosophy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/philosophy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/philosophy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/philosophy.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/privacy.html"/>
   </url>
   <url>
     <loc>https://www.hlaglobal.com.tw/real-estate.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/real-estate.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/real-estate.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/real-estate.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/real-estate.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/real-estate.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/search.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/search.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/search.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/search.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/search.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/search.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/search.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/search.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/search.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/search.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/search.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/search.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/search.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/search.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/search.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/terms.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/en/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/terms.html"/>
+  </url>
+  <url>
+    <loc>https://www.hlaglobal.com.tw/ja/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hlaglobal.com.tw/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.hlaglobal.com.tw/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.hlaglobal.com.tw/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.hlaglobal.com.tw/terms.html"/>
   </url>
 </urlset>

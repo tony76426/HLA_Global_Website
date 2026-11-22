@@ -2,6 +2,12 @@
 (() => {
   'use strict';
   if (window.HLA_TRACK) return;
+  const lang=document.documentElement.lang;
+  const translateConsent=(source)=>{
+    const map={"網站分析選擇": {"en": "Analytics preferences", "ja": "アクセス解析の設定"}, "網站隱私與分析設定": {"en": "Privacy & Analytics", "ja": "プライバシー・解析設定"}, "同意後才啟用 ": {"en": "Only enabled with consent: ", "ja": "同意した場合のみ有効："}, "，不傳送聯絡資料或案件內容。": {"en": ". No contact details or case information are sent.", "ja": "。連絡先や相談内容は送信されません。"}, "隱私權政策": {"en": "Privacy Policy", "ja": "プライバシーポリシー"}, "同意分析": {"en": "Allow analytics", "ja": "解析に同意"}, "拒絕分析": {"en": "Decline analytics", "ja": "解析を拒否"}, "網站分析設定": {"en": "Analytics Settings", "ja": "アクセス解析設定"}};
+    return (map[source]||{})[lang]||source;
+  };
+
   const config = window.HLA_CONFIG || {};
   const analytics = config.analytics || {};
   const canonical = document.querySelector('link[rel="canonical"]')?.href;
@@ -112,23 +118,23 @@
   function consentPanel() {
     if (!enabled || document.getElementById('hla-consent')) return;
     const panel=document.createElement('div');panel.id='hla-consent';panel.className='hla-consent';
-    panel.setAttribute('role','region');panel.setAttribute('aria-label','網站分析選擇');
+    panel.setAttribute('role','region');panel.setAttribute('aria-label',translateConsent('網站分析選擇'));
     const inner=document.createElement('div');inner.className='hla-consent-inner';
     const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');
     icon.setAttribute('viewBox','0 0 24 24');icon.setAttribute('aria-hidden','true');icon.classList.add('hla-consent-icon');
     const shield=document.createElementNS('http://www.w3.org/2000/svg','path');
     shield.setAttribute('d','M12 3 4 6v6c0 4 4 7 8 9 4-2 8-5 8-9V6l-8-3Z M8.5 12l2.5 2.5 4.5-5');icon.append(shield);
     const copy=document.createElement('div');copy.className='hla-consent-copy';
-    const title=document.createElement('strong');title.className='hla-consent-title';title.textContent='網站隱私與分析設定';
+    const title=document.createElement('strong');title.className='hla-consent-title';title.textContent=translateConsent('網站隱私與分析設定');
     const text=document.createElement('p');
     const desktopName=document.createElement('span');desktopName.className='hla-consent-desktop';desktopName.textContent='Google Analytics';
     const mobileName=document.createElement('span');mobileName.className='hla-consent-mobile';mobileName.textContent='GA4';
-    text.append('同意後才啟用 ',desktopName,mobileName,'，不傳送聯絡資料或案件內容。');
-    const privacy=document.createElement('a');privacy.href='privacy.html';privacy.textContent='隱私權政策';text.append(' ',privacy);
+    text.append(translateConsent('同意後才啟用 '),desktopName,mobileName,translateConsent('，不傳送聯絡資料或案件內容。'));
+    const privacy=document.createElement('a');privacy.href='privacy.html';privacy.textContent=translateConsent('隱私權政策');text.append(' ',privacy);
     copy.append(title,text);
     const actions=document.createElement('div');actions.className='hla-consent-actions';
-    const allow=document.createElement('button');allow.type='button';allow.textContent='同意分析';
-    const deny=document.createElement('button');deny.type='button';deny.textContent='拒絕分析';
+    const allow=document.createElement('button');allow.type='button';allow.textContent=translateConsent('同意分析');
+    const deny=document.createElement('button');deny.type='button';deny.textContent=translateConsent('拒絕分析');
     actions.append(allow,deny);inner.append(icon,copy,actions);panel.append(inner);
     const spacer=document.createElement('div');spacer.className='hla-consent-spacer';spacer.setAttribute('aria-hidden','true');
     document.body.append(spacer,panel);
@@ -160,7 +166,7 @@
     let choice='';try {choice=localStorage.getItem('hla-analytics-consent-v1') || '';} catch {}
     if (consent) bootGoogle();else if(!choice)consentPanel();
     const settings=document.createElement('button');settings.type='button';settings.className='hla-consent-settings';
-    settings.textContent='網站分析設定';settings.addEventListener('click',consentPanel);
+    settings.textContent=translateConsent('網站分析設定');settings.addEventListener('click',consentPanel);
     (document.querySelector('.footer-bottom') || document.body).append(settings);
   }
   if (practiceFiles.has(pageFile)) track('view_practice',{},'page');
