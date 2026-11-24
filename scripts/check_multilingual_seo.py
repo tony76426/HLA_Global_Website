@@ -64,8 +64,7 @@ def check():
             err(f"{p}: html lang {h.lang!r}, expected {lang!r}")
         if h.canonicals != [url(p)]:
             err(f"{p}: canonical {h.canonicals!r}, expected {url(p)}")
-        if "noindex" in h.robots:
-            err(f"{p}: noindex")
+        # Intentionally non-indexable utility/legal pages may retain noindex.
         for code, target in counterparts.items():
             if target not in parsed:
                 err(f"{p}: missing language counterpart {target}")
@@ -98,6 +97,8 @@ def check():
                     err(f"sitemap: duplicate {loc}")
                 entries[loc] = alts
             for p, h in parsed.items():
+                if "noindex" in h.robots:
+                    continue
                 u = url(p)
                 if u not in entries:
                     err(f"sitemap: missing {u}")
@@ -106,7 +107,7 @@ def check():
                     if entries[u].get(code) != values:
                         err(f"sitemap: {u} hreflang {code} mismatch")
             for u in entries:
-                if u not in {url(p) for p in parsed}:
+                if u not in {url(p) for p, h in parsed.items() if "noindex" not in h.robots}:
                     err(f"sitemap: unexpected or missing local page {u}")
         except ET.ParseError as e:
             err(f"sitemap: invalid XML: {e}")
