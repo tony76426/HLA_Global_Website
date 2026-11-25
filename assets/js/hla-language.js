@@ -8,19 +8,8 @@
   panel.querySelectorAll('a[data-lang]').forEach(a=>a.addEventListener('click',()=>{
     try{localStorage.setItem('hla-preferred-language',a.dataset.lang)}catch{}
   }));
-  // Initial language choice follows the browser only if the visitor has not previously chosen.
-  // Localized URL paths keep the selected language for all subsequent navigation.
-  if(document.documentElement.lang==='zh-Hant-TW'&&!(location.pathname.includes('/en/')||location.pathname.includes('/ja/'))){
-    let saved='';try{saved=localStorage.getItem('hla-preferred-language')||''}catch{}
-    const inferred=saved||((navigator.language||'').toLowerCase().startsWith('ja')?'ja':(navigator.language||'').toLowerCase().startsWith('en')?'en':'zh');
-    if(inferred==='en'||inferred==='ja'){
-      const path=location.pathname, file=path.endsWith('/')?'index.html':path.split('/').pop();
-      if(/^[a-z0-9-]+\.html$/.test(file)){
-        const href=new URL(inferred+'/'+file,location.href);href.search=location.search;href.hash=location.hash;
-        location.replace(href.href);
-      }
-    }
-  }
+  // Keep the requested language URL stable for users and search crawlers.
+  // Language changes occur only through explicit selection in the language menu.
   const input=document.querySelector('#locale-site-search,#locale-insights-search');
   if(input){
     const rows=[...document.querySelectorAll('.locale-search-result,.locale-list-article')],empty=document.querySelector('#locale-no-results');
